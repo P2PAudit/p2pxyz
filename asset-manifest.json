@@ -1,8 +1,9 @@
 {
   "files": {
-    "main.css": "/p2pxyz/static/css/main.decfe523.css",
-    "main.js": "/p2pxyz/static/js/main.9abf628c.js",
+    "main.css": "/p2pxyz/static/css/main.22e35a82.css",
+    "main.js": "/p2pxyz/static/js/main.dafe1007.js",
     "static/js/787.cd524ff2.chunk.js": "/p2pxyz/static/js/787.cd524ff2.chunk.js",
+    "static/media/cavd.svg": "/p2pxyz/static/media/cavd.a10ae18680068e871693.svg",
     "static/media/backgroundshade.svg": "/p2pxyz/static/media/backgroundshade.3ffd4dbb1ee3a4b903f4.svg",
     "static/media/coin.svg": "/p2pxyz/static/media/coin.e8471d20f09658305560e72397758630.svg",
     "static/media/Bruno Ace Regular.ttf": "/p2pxyz/static/media/Bruno Ace Regular.1d2d4719616950868d4b.ttf",
@@ -11,14 +12,15 @@
     "static/media/icon1.svg": "/p2pxyz/static/media/icon1.81e47015d2a90e0e73f851c800fe5faf.svg",
     "static/media/frtlogo.svg": "/p2pxyz/static/media/frtlogo.e0d8c6b58cb6f820a49289dd7f85e002.svg",
     "static/media/gassopt.svg": "/p2pxyz/static/media/gassopt.7fe8cd43430498dbbd376b218be0da57.svg",
+    "static/media/cavdicon.svg": "/p2pxyz/static/media/cavdicon.e43d9be84889fe06a9c4f33acd62315a.svg",
     "static/media/frt.svg": "/p2pxyz/static/media/frt.6da4ef7ab67a086a6eb0.svg",
     "index.html": "/p2pxyz/index.html",
-    "main.decfe523.css.map": "/p2pxyz/static/css/main.decfe523.css.map",
-    "main.9abf628c.js.map": "/p2pxyz/static/js/main.9abf628c.js.map",
+    "main.22e35a82.css.map": "/p2pxyz/static/css/main.22e35a82.css.map",
+    "main.dafe1007.js.map": "/p2pxyz/static/js/main.dafe1007.js.map",
     "787.cd524ff2.chunk.js.map": "/p2pxyz/static/js/787.cd524ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.decfe523.css",
-    "static/js/main.9abf628c.js"
+    "static/css/main.22e35a82.css",
+    "static/js/main.dafe1007.js"
   ]
 }
