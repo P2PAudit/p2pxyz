@@ -1,20 +1,24 @@
 {
   "files": {
-    "main.css": "/p2pxyz/static/css/main.a9c5fa36.css",
-    "main.js": "/p2pxyz/static/js/main.8f35ef10.js",
+    "main.css": "/p2pxyz/static/css/main.decfe523.css",
+    "main.js": "/p2pxyz/static/js/main.9abf628c.js",
     "static/js/787.cd524ff2.chunk.js": "/p2pxyz/static/js/787.cd524ff2.chunk.js",
+    "static/media/backgroundshade.svg": "/p2pxyz/static/media/backgroundshade.3ffd4dbb1ee3a4b903f4.svg",
     "static/media/coin.svg": "/p2pxyz/static/media/coin.e8471d20f09658305560e72397758630.svg",
     "static/media/Bruno Ace Regular.ttf": "/p2pxyz/static/media/Bruno Ace Regular.1d2d4719616950868d4b.ttf",
     "static/media/Brinnan-Regular.woff": "/p2pxyz/static/media/Brinnan-Regular.783e032285f1cef53863.woff",
     "static/media/BrunoAceSC-Regular.ttf.woff": "/p2pxyz/static/media/BrunoAceSC-Regular.ttf.49cdd1a8729072740984.woff",
     "static/media/icon1.svg": "/p2pxyz/static/media/icon1.81e47015d2a90e0e73f851c800fe5faf.svg",
+    "static/media/frtlogo.svg": "/p2pxyz/static/media/frtlogo.e0d8c6b58cb6f820a49289dd7f85e002.svg",
+    "static/media/gassopt.svg": "/p2pxyz/static/media/gassopt.7fe8cd43430498dbbd376b218be0da57.svg",
+    "static/media/frt.svg": "/p2pxyz/static/media/frt.6da4ef7ab67a086a6eb0.svg",
     "index.html": "/p2pxyz/index.html",
-    "main.a9c5fa36.css.map": "/p2pxyz/static/css/main.a9c5fa36.css.map",
-    "main.8f35ef10.js.map": "/p2pxyz/static/js/main.8f35ef10.js.map",
+    "main.decfe523.css.map": "/p2pxyz/static/css/main.decfe523.css.map",
+    "main.9abf628c.js.map": "/p2pxyz/static/js/main.9abf628c.js.map",
     "787.cd524ff2.chunk.js.map": "/p2pxyz/static/js/787.cd524ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9c5fa36.css",
-    "static/js/main.8f35ef10.js"
+    "static/css/main.decfe523.css",
+    "static/js/main.9abf628c.js"
   ]
 }
