@@ -259,7 +259,7 @@
 
 .main4 {
   display: flex;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 .coin {
@@ -328,4 +328,56 @@
   justify-content: center;
 
   color: #020102;
+}
+
+.nums {
+  display: flex;
+  width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 4%;
+}
+
+.cardnum {
+  background: linear-gradient(125.7deg, #D3C0EB 25.17%, #EBE1F7 85.77%);
+  width: 20%;
+  margin-right: auto;
+  margin-left: auto;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.head {
+  padding-top: 5%;
+  justify-content: center;
+  font-family: 'Bruno Ace';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 43px;
+  line-height: 72px;
+  /* or 167% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.desc {
+  padding-bottom: 5%;
+  justify-content: center;
+  font-family: 'Bruno Ace';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 17px;
+  /* identical to box height, or 129% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  
+  color: #000000;
 }
