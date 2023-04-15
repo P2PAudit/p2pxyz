@@ -494,7 +494,7 @@
 }
 
 .katanadescription {
-  margin-top: 4%;
+  margin-top: 1%;
   font-family: 'Brinnan';
   font-style: normal;
   font-weight: 400;
@@ -528,4 +528,49 @@
 
 .desckatanafrt {
   width: 85%;
+}
+
+.k3 {
+  display: flex;
+  margin-top: 2%;
+}
+
+.katanabtn {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 340px;
+  height: 60px;
+  left: calc(50% - 340px/2 - 378px);
+  bottom: 8338px;
+
+  background: linear-gradient(93.18deg, #D3C0EB 40.06%, #EBE1F7 69.76%);
+  border-radius: 44px;
+  
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 19px;
+  /* identical to box height, or 71% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #000000;
+}
+
+.cavd {
+  width: 50%;
+  background-image: url(./images/cavd.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  display: flex;
+}
+
+.cavdicon {
+  margin-left: 6%;
+  margin-right: 6%;
 }

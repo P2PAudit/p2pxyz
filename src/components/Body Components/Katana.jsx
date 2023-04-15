@@ -1,6 +1,7 @@
 import React from 'react'
 import gasopt from '../../images/gassopt.svg'
 import frtlogo from '../../images/frtlogo.svg'
+import cavdicon from '../../images/cavdicon.svg'
 
 const Katana = () => {
   return (
@@ -37,7 +38,16 @@ const Katana = () => {
           </div>
         </div>
       </div>
-      <div className="k3"></div>
+      <div className="k3">
+        <div className="katanabtn">AUDIT $199</div>
+        <div className="cavd">
+          <img src={cavdicon} alt="Common Attack Vectors Detection" className='cavdicon'/>
+          <div>
+            <div className="headkatana">Common <span className="blue"> Attack</span> Vectors Detection:</div>
+            <div className="desckatana desckatanafrt"> With over 100+ security checkers, we provide comprehensive coverage for conventional security vulnerabilities and tokenomic loopholes.</div>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
