@@ -123,6 +123,7 @@
 .title {
   margin-top: auto;
   margin-bottom: auto;
+  margin-left: 2%;
   font-family: 'Bruno Ace SC';
   font-style: normal;
   font-weight: 900;
@@ -192,10 +193,12 @@
   color: #FFFFFF;
 }
 
-.main {
+.mainblock {
+  display: flex;
   margin-left: auto;
   margin-right: auto;
   width: 90%;
+  margin-top: 3%;
 }
 
 .main1 {
@@ -205,9 +208,8 @@
   font-size: 67px;
   line-height: 86px;
   /* or 129% */
-  margin-top: 5% ;
+  margin-top:3%;
 
-  display: flex;
   align-items: center;
   text-align: left;
 
@@ -226,7 +228,7 @@
   line-height: 39px;
   /* or 164% */
 
-  margin-top: 2%;
+  margin-top: 3%;
   
   display: flex;
   align-items: center;
@@ -240,8 +242,6 @@
 
 }
 
-
-
 .main3 {
   font-family: 'Brinnan';
   font-style: normal;
@@ -249,11 +249,83 @@
   font-size: 22px;
   line-height: 43px;
   /* or 195% */
-  margin-top: 2%;
-  display: flex;
+  margin-top: 3%;
   align-items: center;
   text-align: left;
 
 
   color: #F9F9F9;
+}
+
+.main4 {
+  display: flex;
+  margin-top: 5%;
+}
+
+.coin {
+  margin-top: -5%;
+}
+
+.pink {
+  -webkit-text-fill-color: #D3C0EB;
+}
+
+.pink2 {
+  color: #DFD1F1;
+}
+
+.applyaudit {
+  height: 58.00000147655144px;
+  width: 200.0000050915567px;
+  left: 76px;
+  top: 619.71875px;
+  border-radius: 37px;
+  border: 1px solid #9974FF;
+  /* border-image-source: linear-gradient(180deg, #D5D5D1 0%, #BDB2E8 51.04%, #4C4138 100%); */
+  
+  box-sizing: border-box;
+
+  background: black;
+  border-radius: 37px;
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  /* or 120% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  background: linear-gradient(90.03deg, #EBE1F7 16.18%, #D3C0EB 84.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  justify-content: center;
+  text-fill-color: transparent;
+}
+
+.requestaudit {
+  width: 200px;
+  height: 58px;
+  left: 311px;
+  top: calc(50% - 58px/2 - 4352.28px);
+  margin-left: 5%;
+
+  background: linear-gradient(100.36deg, #D3C0EB 34.78%, #EAE1F7 59.47%);
+  border-radius: 37px;
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height, or 128% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #020102;
 }
