@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/p2pxyz/static/css/main.37b7891a.css",
-    "main.js": "/p2pxyz/static/js/main.896f59b5.js",
+    "main.css": "/p2pxyz/static/css/main.9cc0986e.css",
+    "main.js": "/p2pxyz/static/js/main.8f35ef10.js",
     "static/js/787.cd524ff2.chunk.js": "/p2pxyz/static/js/787.cd524ff2.chunk.js",
     "static/media/coin.svg": "/p2pxyz/static/media/coin.e8471d20f09658305560e72397758630.svg",
     "static/media/Bruno Ace Regular.ttf": "/p2pxyz/static/media/Bruno Ace Regular.1d2d4719616950868d4b.ttf",
@@ -9,12 +9,12 @@
     "static/media/BrunoAceSC-Regular.ttf.woff": "/p2pxyz/static/media/BrunoAceSC-Regular.ttf.49cdd1a8729072740984.woff",
     "static/media/icon1.svg": "/p2pxyz/static/media/icon1.81e47015d2a90e0e73f851c800fe5faf.svg",
     "index.html": "/p2pxyz/index.html",
-    "main.37b7891a.css.map": "/p2pxyz/static/css/main.37b7891a.css.map",
-    "main.896f59b5.js.map": "/p2pxyz/static/js/main.896f59b5.js.map",
+    "main.9cc0986e.css.map": "/p2pxyz/static/css/main.9cc0986e.css.map",
+    "main.8f35ef10.js.map": "/p2pxyz/static/js/main.8f35ef10.js.map",
     "787.cd524ff2.chunk.js.map": "/p2pxyz/static/js/787.cd524ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.37b7891a.css",
-    "static/js/main.896f59b5.js"
+    "static/css/main.9cc0986e.css",
+    "static/js/main.8f35ef10.js"
   ]
 }
