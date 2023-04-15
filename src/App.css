@@ -346,6 +346,7 @@
   margin-left: auto;
   justify-content: center;
   border-radius: 15px;
+  margin-top: 1%;
 }
 
 .head {
@@ -381,4 +382,150 @@
   text-transform: uppercase;
   
   color: #000000;
+}
+
+.katana {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.k1 {
+  display: flex;
+  margin-top: 7%;
+}
+
+.headk11 {
+  height: 41px;
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 0.76px;
+  text-transform: uppercase;
+
+  background: linear-gradient(90deg, #F9F9F9 24.69%, #8772BF 69.75%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.headk12 {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 51px;
+  line-height: 21px;
+  align-items: center;
+  letter-spacing: 5px;
+
+  background: linear-gradient(96.08deg, #D3C0EB 37.44%, #EBE1F7 53.86%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.prodesc {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 34px;
+  /* or 131% */
+
+  margin-top: 10%;
+
+  display: flex;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: 0.44px;
+  text-decoration-line: underline;
+  text-transform: capitalize;
+
+  color: #D5D5D2;
+
+}
+
+.gasopt {
+  width: 50%;
+  background-image: url(./images/backgroundshade.svg);
+  background-repeat: no-repeat;
+  margin-left: 5%;
+  margin-top: -3%;
+  display: flex;
+}
+
+.blue {
+  color: #8444D5;
+}
+
+.gasicon {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.headkatana {
+  margin-top: 5%;
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 25px;
+  text-align: left;
+  color: white;
+
+}
+
+.desckatana {
+  margin-top: 2%;
+  width: 70%;
+  text-align: left;
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 25px;
+  color: white;
+
+}
+
+.katanadescription {
+  margin-top: 4%;
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 23px;
+  width: 50%;
+  align-items: center;
+  text-align: left;
+  color: #FFFFFF;
+
+}
+
+.k2 {
+  display: flex;
+}
+
+.frt {
+  margin-top:auto;
+  margin-bottom: auto;
+  width: 50%;
+  background-image: url(./images/frt.svg);
+  background-repeat: no-repeat;
+  margin-left: 10%;
+  display: flex;
+}
+
+.frticon {
+  margin-left: 6%;
+  margin-right: 6%;
+}
+
+.desckatanafrt {
+  width: 85%;
 }
