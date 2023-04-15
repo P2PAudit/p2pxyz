@@ -574,3 +574,136 @@
   margin-left: 6%;
   margin-right: 6%;
 }
+
+.rsar {
+  margin-top: 10%;
+  
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 2%;
+  padding-bottom: 6%;
+  background: #0D101C;
+  border-radius: 16px;
+}
+
+.rsartitle {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.headrsar {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 67px;
+  /* or 120% */
+
+  align-items: center;
+  text-align: center;
+  text-decoration-line: line-through;
+
+  color: #F9FAFB;
+}
+
+.headrsarinside {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 67px;
+  /* or 120% */
+
+  align-items: center;
+  text-align: center;
+  text-decoration-line: line-through;
+
+  color: #F9FAFB;
+}
+
+.faheadtitle {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  /* or 100% */
+
+  margin-bottom: 2%;
+  margin-top: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #F9FAFB;
+}
+
+.faudits {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(128.7deg, #9F7FF9 25.16%, #EBE1F7 59.04%);
+  border-radius: 24px;
+}
+
+.faetureaudits {
+  display: flex;
+}
+
+.fabox {
+  margin-top: 3%;
+  display: flex;
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.faimgtitle {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  /* or 140% */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+
+  color: #000000;
+
+}
+
+.fadesc {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-left: 10%;
+    /* or 156% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #000000;
+}
+
+.fafoot {
+  font-family: 'Iowan Old Style';
+  font-style: italic;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 48px;
+  /* or 369% */
+  margin-left: 5%;
+  margin-top: 2%;
+
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
