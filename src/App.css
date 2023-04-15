@@ -267,6 +267,11 @@
   margin-left: auto;
 }
 
+.coinimage {
+  width: 110%;
+  height: 100%;
+}
+
 .pink {
   -webkit-text-fill-color: #D3C0EB;
 }
