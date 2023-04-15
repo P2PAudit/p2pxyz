@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/p2pxyz/static/css/main.2b83a14d.css",
+    "main.css": "/p2pxyz/static/css/main.06b1e64e.css",
     "main.js": "/p2pxyz/static/js/main.d6584b81.js",
     "static/js/787.cd524ff2.chunk.js": "/p2pxyz/static/js/787.cd524ff2.chunk.js",
     "static/media/cavd.svg": "/p2pxyz/static/media/cavd.a10ae18680068e871693.svg",
@@ -25,12 +25,12 @@
     "static/media/cavdicon.svg": "/p2pxyz/static/media/cavdicon.e43d9be84889fe06a9c4f33acd62315a.svg",
     "static/media/frt.svg": "/p2pxyz/static/media/frt.6da4ef7ab67a086a6eb0.svg",
     "index.html": "/p2pxyz/index.html",
-    "main.2b83a14d.css.map": "/p2pxyz/static/css/main.2b83a14d.css.map",
+    "main.06b1e64e.css.map": "/p2pxyz/static/css/main.06b1e64e.css.map",
     "main.d6584b81.js.map": "/p2pxyz/static/js/main.d6584b81.js.map",
     "787.cd524ff2.chunk.js.map": "/p2pxyz/static/js/787.cd524ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b83a14d.css",
+    "static/css/main.06b1e64e.css",
     "static/js/main.d6584b81.js"
   ]
 }
