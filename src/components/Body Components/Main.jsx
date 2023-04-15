@@ -13,7 +13,9 @@ const Main = () => {
           <div className="requestaudit">Request an audit</div>
         </div>
       </div>
-      <img src={coin} alt="coin" className='coin' />
+      <div className='coinimage coin'>
+        <img src={coin} alt="coin" className='path' />
+      </div>
     </div>
   )
 }

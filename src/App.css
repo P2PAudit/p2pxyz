@@ -454,6 +454,7 @@
   width: 50%;
   background-image: url(./images/backgroundshade.svg);
   background-repeat: no-repeat;
+  background-size: 100%;
   margin-left: 5%;
   margin-top: -3%;
   display: flex;
@@ -516,6 +517,7 @@
   margin-bottom: auto;
   width: 50%;
   background-image: url(./images/frt.svg);
+  background-size: 100%;
   background-repeat: no-repeat;
   margin-left: 10%;
   display: flex;
@@ -706,4 +708,39 @@
   align-items: center;
 
   color: #000000;
+}
+
+.pathmain {
+  margin-top: 10%;
+}
+
+.path {
+  width: 90%;
+}
+
+.pathbtn {
+  width: 25%;
+  height: 65.65px;
+  top: calc(50% - 65.65px/2 - 2141.82px);
+  margin-left: auto;
+  margin-top: -6%;
+  margin-right: 15%;
+
+  background: linear-gradient(100.36deg, #D3C0EB 34.78%, #EAE1F7 59.47%);
+  border-radius: 37px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 27px;
+  line-height: 19px;
+  /* identical to box height, or 71% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+  color: #020102;
 }
