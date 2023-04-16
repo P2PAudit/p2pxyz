@@ -5,6 +5,7 @@ import Katana from './Body Components/Katana';
 import Path from './Body Components/Path';
 import FeatureAudit from './Body Components/FeatureAudit';
 import RSAR from './Body Components/RSAR';
+import WWD from './Body Components/WWD';
 
 const Body = () => {
   return (
@@ -15,6 +16,7 @@ const Body = () => {
       <Path />
       <FeatureAudit />
       <RSAR />
+      <WWD />
     </div>
   )
 }
