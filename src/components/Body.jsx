@@ -6,6 +6,7 @@ import Path from './Body Components/Path';
 import FeatureAudit from './Body Components/FeatureAudit';
 import RSAR from './Body Components/RSAR';
 import WWD from './Body Components/WWD';
+import OS from './Body Components/OS';
 
 const Body = () => {
   return (
@@ -17,6 +18,7 @@ const Body = () => {
       <FeatureAudit />
       <RSAR />
       <WWD />
+      <OS />
     </div>
   )
 }

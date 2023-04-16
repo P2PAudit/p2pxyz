@@ -1072,3 +1072,285 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.osmain {
+  display: flex;
+  background: linear-gradient(180deg, #2f2f2f 0%, rgba(9, 9, 9, 0) 100%);
+  border-radius: 24px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.os1 {
+  width: 35%;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+
+.os2 {
+  width: 60%;
+  margin-left: auto;
+  margin-right: 2%;
+}
+
+.arr {
+  background: linear-gradient(180deg, #545454 0%, rgba(9, 9, 9, 0) 100%);
+  border-radius: 24px;
+}
+
+.oshead {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 32px;
+  /* or 76% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+}
+
+.utbox {
+  background: linear-gradient(180deg, #545454 0%, rgba(9, 9, 9, 0) 100%);
+  border-radius: 24px;
+  padding: 5%;
+}
+
+.uttitle {
+
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 32px;
+  /* or 103% */
+  
+  display: flex;
+  align-items: center;
+  
+  background: linear-gradient(97.71deg, #9F7FF9 44.04%, #E4D8F8 62.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.utdesc {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  /* or 188% */
+  width: 50%;
+  margin-top: 5%;
+  
+  display: flex;
+  align-items: center;
+  text-align: left;
+  
+  background: linear-gradient(180deg, #D5D5D1 0%, #E4D8F8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.utbody {
+  display: flex;
+}
+
+.utbtn {
+  width: 150px;
+  height: 58px;
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* or 137% */
+  margin-top: 5%;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+  background: linear-gradient(90.03deg, #EBE1F7 16.18%, #D3C0EB 84.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  border: 1px solid #D3C0EB;
+  border-radius: 37px;
+}
+
+.arr {
+  padding: 5%;
+}
+
+.tla {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.arrtitle {
+
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 32px;
+  /* or 103% */
+  
+  display: flex;
+  align-items: center;
+  
+  background: linear-gradient(97.71deg, #9F7FF9 44.04%, #E4D8F8 62.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.arrdesc {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  /* or 188% */
+  width: 110%;
+  margin-top: 5%;
+
+  display: flex;
+  align-items: center;
+  text-align: left;
+  
+  background: linear-gradient(180deg, #D5D5D1 0%, #E4D8F8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.arrbody {
+  display: flex;
+}
+
+.arrbtn {
+  width: 200px;
+  height: 58px;
+  
+  justify-content: center;
+  
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height, or 128% */
+  margin-top: 5%;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #020102;
+
+  border-radius: 37px;
+  background: linear-gradient(100.36deg, #D3C0EB 34.78%, #EAE1F7 59.47%);
+  border-radius: 37px;
+}
+
+.arrbgicon {
+  margin-top: -15%;
+  margin-left: 15%;
+}
+
+.utbg {
+  margin-left: auto;
+  margin-right: 1%;
+}
+
+.tlatitle {
+
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 32px;
+  /* or 103% */
+  
+  
+  display: flex;
+  align-items: center;
+  
+  background: linear-gradient(97.71deg, #9F7FF9 44.04%, #E4D8F8 62.01%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.tladesc {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  /* or 188% */
+  width: 90%;
+  margin-top: 5%;
+  
+  display: flex;
+  align-items: center;
+  text-align: left;
+  
+  background: linear-gradient(180deg, #D5D5D1 0%, #E4D8F8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.tlabody {
+  display: flex;
+}
+
+.tlabtn {
+  width: 200px;
+  height: 58px;
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  /* or 137% */
+  margin-top: 5%;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  
+  background: linear-gradient(90.03deg, #EBE1F7 16.18%, #D3C0EB 84.51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  border: 1px solid #D3C0EB;
+  border-radius: 37px;
+}
+
+.oshead {
+  margin-top: 20%;
+  margin-bottom: 10%;
+}
+
+.os1 , .os2 {
+  margin-top: 2%;
+}
