@@ -1127,6 +1127,8 @@
   font-size: 31px;
   line-height: 32px;
   /* or 103% */
+
+  width: fit-content;
   
   display: flex;
   align-items: center;
@@ -1205,6 +1207,7 @@
   font-size: 31px;
   line-height: 32px;
   /* or 103% */
+  width: fit-content;
   
   display: flex;
   align-items: center;
@@ -1284,7 +1287,7 @@
   font-size: 31px;
   line-height: 32px;
   /* or 103% */
-  
+  width: fit-content;
   
   display: flex;
   align-items: center;
@@ -1353,4 +1356,89 @@
 
 .os1 , .os2 {
   margin-top: 2%;
+}
+
+.kickoff {
+  border-radius: 10px;
+  background: linear-gradient(90deg, #9F80F9 0%, #EBE1F7 100%);
+  padding: 3px;
+  width: 80%;
+  margin: 5% auto;
+}
+
+.kickoffcontent {
+  background: #222;
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 5%;
+}
+
+.kick1 {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+  /* or 111% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  color: #F9FAFB;  
+  margin: 0 auto;
+  width: fit-content;
+  
+  padding-top: 4%;
+}
+
+.kick2 {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 25px;
+  /* or 127% */
+  margin: 0 auto;
+  width: fit-content;
+  
+  margin-top: 1%;
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  
+  background: linear-gradient(91.58deg, #EBE1F7 48.66%, #9F7FF9 55.15%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+.kickbtn {
+  width: 200px;
+  height: 47.22px;
+  left: 485px;
+  top: calc(50% - 47.22px/2 + 56.7px);
+
+  background: linear-gradient(100.36deg, #D3C0EB 34.78%, #EAE1F7 59.47%);
+  border-radius: 37px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 15px;
+  line-height: 19px;
+  /* identical to box height, or 128% */
+  
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 3%;
+  
+  color: #020102;
+  
+  transform: matrix(1, 0, 0, 1, 0, 0);
 }

@@ -7,6 +7,7 @@ import FeatureAudit from './Body Components/FeatureAudit';
 import RSAR from './Body Components/RSAR';
 import WWD from './Body Components/WWD';
 import OS from './Body Components/OS';
+import KickOff from './Body Components/KickOff';
 
 const Body = () => {
   return (
@@ -19,6 +20,7 @@ const Body = () => {
       <RSAR />
       <WWD />
       <OS />
+      <KickOff />
     </div>
   )
 }
