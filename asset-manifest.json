@@ -1,17 +1,22 @@
 {
   "files": {
-    "main.css": "/p2pxyz/static/css/main.06b1e64e.css",
-    "main.js": "/p2pxyz/static/js/main.d6584b81.js",
+    "main.css": "/p2pxyz/static/css/main.781e319c.css",
+    "main.js": "/p2pxyz/static/js/main.aad89b2d.js",
     "static/js/787.cd524ff2.chunk.js": "/p2pxyz/static/js/787.cd524ff2.chunk.js",
     "static/media/cavd.svg": "/p2pxyz/static/media/cavd.a10ae18680068e871693.svg",
     "static/media/backgroundshade.svg": "/p2pxyz/static/media/backgroundshade.3ffd4dbb1ee3a4b903f4.svg",
     "static/media/coin.svg": "/p2pxyz/static/media/coin.e8471d20f09658305560e72397758630.svg",
+    "static/media/3bg.svg": "/p2pxyz/static/media/3bg.ba5807ff173d9e61c0d7c1a4088a18da.svg",
     "static/media/vtvl.svg": "/p2pxyz/static/media/vtvl.1ef501c0ef7135438ef0adc1c4704d82.svg",
+    "static/media/sheild.svg": "/p2pxyz/static/media/sheild.74d2ae834e5aeb89ce3ddef89201a016.svg",
     "static/media/pladin.svg": "/p2pxyz/static/media/pladin.bd69e03d72b84e5b765e1861756bb426.svg",
     "static/media/RSAR.svg": "/p2pxyz/static/media/RSAR.81b839cc915b67172483052c0f544274.svg",
     "static/media/path.svg": "/p2pxyz/static/media/path.f00ea3903835864480fdd3be63cef647.svg",
     "static/media/party.svg": "/p2pxyz/static/media/party.42255425d80f6dbabaf53fe2eb9cf2f6.svg",
     "static/media/y2k.svg": "/p2pxyz/static/media/y2k.270cb59af10fc07b0baaf7d30810cc96.svg",
+    "static/media/1icon.svg": "/p2pxyz/static/media/1icon.efda03a2c7cd09f3cf2b7f24dc51934e.svg",
+    "static/media/2bg.svg": "/p2pxyz/static/media/2bg.db503c900a1dc4fc8127b83248fe6779.svg",
+    "static/media/1bg.svg": "/p2pxyz/static/media/1bg.d4fc999951ae0298ac7a.svg",
     "static/media/Bruno Ace Regular.ttf": "/p2pxyz/static/media/Bruno Ace Regular.1d2d4719616950868d4b.ttf",
     "static/media/Brinnan-Regular.woff": "/p2pxyz/static/media/Brinnan-Regular.783e032285f1cef53863.woff",
     "static/media/ens.svg": "/p2pxyz/static/media/ens.77e6e47232dd1ac7b7655db46db17490.svg",
@@ -22,15 +27,18 @@
     "static/media/frtlogo.svg": "/p2pxyz/static/media/frtlogo.e0d8c6b58cb6f820a49289dd7f85e002.svg",
     "static/media/gassopt.svg": "/p2pxyz/static/media/gassopt.7fe8cd43430498dbbd376b218be0da57.svg",
     "static/media/juicebox.svg": "/p2pxyz/static/media/juicebox.a65ad3a958dd592e2c0b18bb94446632.svg",
+    "static/media/1point.svg": "/p2pxyz/static/media/1point.89552e9a838021e8621c0e8fa62f5c5d.svg",
     "static/media/cavdicon.svg": "/p2pxyz/static/media/cavdicon.e43d9be84889fe06a9c4f33acd62315a.svg",
+    "static/media/2point.svg": "/p2pxyz/static/media/2point.542a60c4c7ff903015a9dcf08f1fedb4.svg",
     "static/media/frt.svg": "/p2pxyz/static/media/frt.6da4ef7ab67a086a6eb0.svg",
     "index.html": "/p2pxyz/index.html",
-    "main.06b1e64e.css.map": "/p2pxyz/static/css/main.06b1e64e.css.map",
-    "main.d6584b81.js.map": "/p2pxyz/static/js/main.d6584b81.js.map",
+    "static/media/ellipse.svg": "/p2pxyz/static/media/ellipse.70e02ee062b96b25d8bf.svg",
+    "main.781e319c.css.map": "/p2pxyz/static/css/main.781e319c.css.map",
+    "main.aad89b2d.js.map": "/p2pxyz/static/js/main.aad89b2d.js.map",
     "787.cd524ff2.chunk.js.map": "/p2pxyz/static/js/787.cd524ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06b1e64e.css",
-    "static/js/main.d6584b81.js"
+    "static/css/main.781e319c.css",
+    "static/js/main.aad89b2d.js"
   ]
 }
