@@ -8,6 +8,7 @@ import RSAR from './Body Components/RSAR';
 import WWD from './Body Components/WWD';
 import OS from './Body Components/OS';
 import KickOff from './Body Components/KickOff';
+import Faqsection from './Faq Components/Faqsection';
 
 const Body = () => {
   return (
@@ -21,6 +22,7 @@ const Body = () => {
       <WWD />
       <OS />
       <KickOff />
+      <Faqsection />
     </div>
   )
 }
