@@ -267,9 +267,42 @@
   margin-left: auto;
 }
 
+@keyframes coinmove {
+  0%  {transform: translateY(0);}
+  50%  {transform: translateY(5%);}
+}
+
 .coinimage {
   width: 110%;
   height: 100%;
+  animation-name: coinmove;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.rsarpath {
+  animation-name: coinmove;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes fadein {
+  0%  {
+    opacity: 0%;
+    transform: translateY(10%);
+  }
+  100%  {
+    opacity: 100%;
+    transform: translateY(0%);
+  }
+}
+
+.sheildicon {
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-timing-function: linear;
 }
 
 .pink {
@@ -723,6 +756,7 @@
   width: 90%;
   height: 100%;
 }
+
 
 .pathbtn {
   width: 25%;
@@ -1487,8 +1521,6 @@
   font-size: 36px;
   line-height: 40px;
   /* or 111% */
-
-  display: flex;
   align-items: center;
   text-align: center;
 
@@ -1753,10 +1785,10 @@
   line-height: 24px;
   /* or 154% */
   
-  display: flex;
+  
   align-items: center;
   text-align: center;
-  margin: 0 10%;
+  margin: auto 10%;
 }
 
 .bannerbtn {

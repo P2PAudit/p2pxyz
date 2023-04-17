@@ -14,7 +14,7 @@ const RSAR = () => {
         <span className="headrsar">R</span>
         <span className="headrsarinside">eport</span>
       </div>
-      <img src={RSARicon} alt="RSAR" className='path'/>
+      <img src={RSARicon} alt="RSAR" className='path rsarpath'/>
     </div>
   )
 }

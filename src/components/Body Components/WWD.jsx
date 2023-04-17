@@ -20,7 +20,7 @@ const WWD = () => {
           </div>
         </div>
         <div className="sheild">
-          <img src={sheild} alt="sheild" />
+          <img src={sheild} alt="sheild" className='sheildicon'/>
         </div>
       </div>
 
