@@ -1,5 +1,6 @@
 import React from 'react'
 import coin from '../../images/coin.svg'
+import {Link} from "react-router-dom"
 
 const Main = () => {
   return (
@@ -9,8 +10,8 @@ const Main = () => {
         <div className="main2">Empowering your decentralized dreams with expert<br /> audits and Web3 Security.</div>
         <div className="main3">P2PAudit helps Web3 projects meet <span className="pink2"> world leading<br /> independent security experts </span></div>
         <div className="main4">
-          <div className="applyaudit">Apply as an Auditor</div>
-          <div className="requestaudit">Request an audit</div>
+          <Link to="/auditor" className="applyaudit">Apply as an Auditor</Link>
+          <Link to="/request" className="requestaudit">Request an audit</Link>
         </div>
       </div>
       <div className='coin'>

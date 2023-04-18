@@ -5,7 +5,7 @@ import tla from '../../images/Other services/tla.svg'
 
 const OS = () => {
   return (
-    <div className='osmain'>
+    <div className='osmain' id="services">
       <div className="os1">
         <div className="oshead">
           Other Services

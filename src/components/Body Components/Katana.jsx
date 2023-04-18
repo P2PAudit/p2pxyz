@@ -2,6 +2,7 @@ import React from 'react'
 import gasopt from '../../images/gassopt.svg'
 import frtlogo from '../../images/frtlogo.svg'
 import cavdicon from '../../images/cavdicon.svg'
+import { Link } from 'react-router-dom'
 
 const Katana = () => {
   return (
@@ -39,7 +40,7 @@ const Katana = () => {
         </div>
       </div>
       <div className="k3">
-        <div className="katanabtn">AUDIT $199</div>
+        <Link to="/katana" className="katanabtn">AUDIT $199</Link>
         <div className="cavd">
           <img src={cavdicon} alt="Common Attack Vectors Detection" className='cavdicon'/>
           <div>

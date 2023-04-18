@@ -15,6 +15,16 @@
   }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  text-transform: none;
+  color: white;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -190,7 +200,7 @@
   align-items: center;
   text-align: center;
 
-  color: #FFFFFF;
+  color: white;
 }
 
 .mainblock {
@@ -268,8 +278,10 @@
 }
 
 @keyframes coinmove {
-  0%  {transform: translateY(0);}
-  50%  {transform: translateY(5%);}
+  0%  {transform: translateY(0%)translateX(0%);}
+  25%  {transform: translateY(5%)translateX(5%);}
+  50%  {transform: translateY(0%)translateX(5%);}
+  75%  {transform: translateY(5%)translateX(0%);}
 }
 
 .coinimage {
@@ -281,12 +293,12 @@
   animation-timing-function: linear;
 }
 
-.rsarpath {
+/* .rsarpath {
   animation-name: coinmove;
   animation-duration: 2s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-}
+} */
 
 @keyframes fadein {
   0%  {
@@ -1814,4 +1826,107 @@
 
 .bannerhighlight {
   color: white;
+}
+
+.formhead {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.528px;
+  line-height: 47px;
+  /* or 124% */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}
+
+.formdesc {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  /* or 171% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+}
+
+.forminputtitle {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 24px;
+  /* or 160% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #FFFFFF;
+  
+}
+
+.forminputdesc {
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13.928px;
+  line-height: 24px;
+  /* or 172% */
+  
+  display: flex;
+  align-items: center;
+  
+  color: #8D8A99;
+}
+
+form input {
+  background: #3D3A4F;
+  border: 1px solid #3D3A4F;
+  border-radius: 3.2px;
+  height: 42px;
+  width: 100%;
+  padding-left: 1%;
+  margin: 1% 0;
+
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #ffffff;
+
+}
+
+.form {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.inputbox {
+  margin-top: 3%;
+}
+
+.forminputtitle , .forminputdesc {
+  margin: 0 0.5%;
+}
+
+.formhead {
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 5%;
+}
+
+.formdesc {
+  margin: 0 auto;
+  width: fit-content;
+  margin-top: 1%;
+  margin-bottom: 7%;
 }
