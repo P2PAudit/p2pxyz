@@ -13,10 +13,10 @@ const Footer = () => {
         <div className="footerdesc">
           Email, Zoom, pigeon-mail... it doesn't matter to us. Contact us now and get your free consultation in whichever way you prefer.
         </div>
-        <div className="footbtn1">
+        <a className="footbtn1" href="mailto:request@p2paudit.xyz">
           <div>request@p2paudit.xyz</div> 
           <img src={msgbox} alt="msgbox" className='footicon' />
-        </div>
+        </a>
         <div className="footbtn">
           <div className="footbtn2">
             <div>Book free<br /> Consultation</div> 
