@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/p2pxyz/static/css/main.a5bd4201.css",
-    "main.js": "/p2pxyz/static/js/main.32609c36.js",
+    "main.css": "/p2pxyz/static/css/main.dea12f64.css",
+    "main.js": "/p2pxyz/static/js/main.383af1fa.js",
     "static/js/787.cd524ff2.chunk.js": "/p2pxyz/static/js/787.cd524ff2.chunk.js",
     "static/media/cavd.svg": "/p2pxyz/static/media/cavd.a10ae18680068e871693.svg",
     "static/media/backgroundshade.svg": "/p2pxyz/static/media/backgroundshade.3ffd4dbb1ee3a4b903f4.svg",
@@ -39,12 +39,12 @@
     "static/media/ellipse.svg": "/p2pxyz/static/media/ellipse.70e02ee062b96b25d8bf.svg",
     "static/media/arrow1.svg": "/p2pxyz/static/media/arrow1.76e6960aa70f89266b6787b9093ec52e.svg",
     "static/media/arrow2.svg": "/p2pxyz/static/media/arrow2.d658de0458e4995a627513f8d738dce0.svg",
-    "main.a5bd4201.css.map": "/p2pxyz/static/css/main.a5bd4201.css.map",
-    "main.32609c36.js.map": "/p2pxyz/static/js/main.32609c36.js.map",
+    "main.dea12f64.css.map": "/p2pxyz/static/css/main.dea12f64.css.map",
+    "main.383af1fa.js.map": "/p2pxyz/static/js/main.383af1fa.js.map",
     "787.cd524ff2.chunk.js.map": "/p2pxyz/static/js/787.cd524ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5bd4201.css",
-    "static/js/main.32609c36.js"
+    "static/css/main.dea12f64.css",
+    "static/js/main.383af1fa.js"
   ]
 }
