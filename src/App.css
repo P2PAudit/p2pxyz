@@ -1905,6 +1905,35 @@ form input {
 
 }
 
+.form select {
+  background: #3D3A4F;
+  border: 1px solid #3D3A4F;
+  border-radius: 3.2px;
+  height: 42px;
+  width: 100%;
+  padding-left: 1%;
+  margin: 1% 0;
+
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+
+  color: #ffffff;
+
+}
+
+select:required:invalid {
+  color: gray;
+}
+option[value=""][disabled] {
+  display: none;
+}
+option {
+  color: white;
+}
+
 .form {
   margin: 0 auto;
   width: 70%;

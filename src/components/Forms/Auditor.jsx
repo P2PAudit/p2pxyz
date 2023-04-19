@@ -1,4 +1,4 @@
-import React , { useState } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 const urltest = "http://localhost:5000"
 
@@ -17,7 +17,7 @@ const Auditor = () => {
 
   const submitform = async (e) => {
     e.preventDefault();
-  
+
     await axios.post(`${urltest}/auditorform`, {
       Username: username,
       TimeCommitment: timecommitment,
@@ -62,31 +62,38 @@ const Auditor = () => {
           <div className="forminputdesc">
             (Note: Please ensure your Username should match your Github profile name .)
           </div>
-          <input type="text" value={username} onChange={(e) => { setUsername(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required/>
+          <input type="text" value={username} onChange={(e) => { setUsername(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             What level of time commitment are you looking for? *
           </div>
-          <input type="text" value={timecommitment} onChange={(e) => { setTimecommitment(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required/>
+          <select value={timecommitment} onChange={(e) => { setTimecommitment(e.target.value) }} required>
+
+            <option value="" disabled selected>Select an option</option>
+            <option value="Full-time">Full-time</option>
+            <option value="Part-time">Part-time</option>
+            <option value="Not sure yet">Not sure yet</option>
+
+          </select>
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             Discord Username *
           </div>
-          <input type="text" value={discord} onChange={(e) => { setDiscord(e.target.value) }} className="form-control" placeholder="Auditor#1234" aria-label="Last name" required/>
+          <input type="text" value={discord} onChange={(e) => { setDiscord(e.target.value) }} className="form-control" placeholder="Auditor#1234" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             Email Address *
           </div>
-          <input type="text" value={email} onChange={(e) => { setEmail(e.target.value) }} className="form-control" placeholder="Auditor@email.com" aria-label="Last name" required/>
+          <input type="text" value={email} onChange={(e) => { setEmail(e.target.value) }} className="form-control" placeholder="Auditor@email.com" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             Twitter/LinkedIn profile link*
           </div>
-          <input type="text" value={twitter} onChange={(e) => { setTwitter(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="text" value={twitter} onChange={(e) => { setTwitter(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
@@ -95,7 +102,7 @@ const Auditor = () => {
           <div className="forminputdesc">
             Link your Medium , Substack , etc.
           </div>
-          <input type="text" value={social} onChange={(e) => { setSocial(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="text" value={social} onChange={(e) => { setSocial(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
@@ -104,25 +111,25 @@ const Auditor = () => {
           <div className="forminputdesc">
             Used in case we need to give you access to certain repositories.
           </div>
-          <input type="text" value={github} onChange={(e) => { setGithub(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="text" value={github} onChange={(e) => { setGithub(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             Describe about yourself ? *
           </div>
-          <input type="text" value={yourself} onChange={(e) => { setYourself(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="text" value={yourself} onChange={(e) => { setYourself(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             How can you contribute to the P2P Audit community? What skillset can you offer? *
           </div>
-          <input type="" value={contribute} onChange={(e) => { setContribute(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="" value={contribute} onChange={(e) => { setContribute(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             How did you came to know about P2PAudit? *
           </div>
-          <input type="text" value={know} onChange={(e) => { setKnow(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="text" value={know} onChange={(e) => { setKnow(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <button type="submit" className="formsubmit" aria-label="Last name" > Submit </button>
