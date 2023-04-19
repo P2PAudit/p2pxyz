@@ -8,7 +8,7 @@ import thbg from '../../images/what we do/3bg.svg'
 
 const WWD = () => {
   return (
-    <div className='whatwedomain'> 
+    <div className='whatwedomain' id="services"> 
       <div className='wwd1'>
         <div className="whatwedo">
           <div className="wwdtitle">
