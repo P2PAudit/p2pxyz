@@ -44,7 +44,7 @@ const Katana = () => {
           </div>
         </div>
         <div className="k3">
-          <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/katana" className="katanabtn">AUDIT $199</Link>
+          <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/katana" className="katanabtn"><div className="requestauditbtn">AUDIT $199</div></Link>
           <div className="cavd">
             <img src={cavdicon} alt="Common Attack Vectors Detection" className='cavdicon' />
             <div>

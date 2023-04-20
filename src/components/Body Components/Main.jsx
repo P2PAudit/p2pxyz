@@ -11,7 +11,7 @@ const Main = () => {
         <div className="main3">P2PAudit helps Web3 projects meet <span className="pink2"> world leading<br /> independent security experts </span></div>
         <div className="main4">
           <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/auditor" className="applyaudit">Apply as an Auditor</Link>
-          <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/request" className="requestaudit">Request an audit</Link>
+          <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/request" className="requestaudit"><div className="requestauditbtn">Request an audit</div></Link>
         </div>
       </div>
       <div className='coin'>

@@ -132,7 +132,7 @@ const Auditor = () => {
           <input type="text" value={know} onChange={(e) => { setKnow(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
-          <button type="submit" className="formsubmit" aria-label="Last name" > Submit </button>
+          <button type="submit" className="formsubmit" aria-label="Last name" ><div className="formsubmitborder"><div className="formsubmittext"> Submit </div></div></button>
         </div>
       </form>
     </div>

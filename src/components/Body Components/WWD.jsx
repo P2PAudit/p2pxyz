@@ -44,7 +44,7 @@ const WWD = () => {
               Our auditors work with your developers to understand your project. We go line by line to secure your code, so you feel confident to push your code into the wild.
             </div>
             <div className="opointbtn">
-              Request an audit
+              <div className="requestauditbtn">Request an audit</div>
             </div>
           </div>
         </div>
@@ -85,7 +85,7 @@ const WWD = () => {
             Wallet extension and app penetration testing audit involve a comprehensive analysis of the wallet's security, including its encryption methods, authentication processes, and communication protocols.
           </div>
           <div className="thpointbtn">
-            Request an audit
+            Request Wallet audit
           </div>
         </div>
         <div className="thpointbg">

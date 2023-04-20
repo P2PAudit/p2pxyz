@@ -1,4 +1,4 @@
-import React , { useState } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios'
 const urltest = "http://localhost:5000"
 
@@ -15,7 +15,7 @@ const Katana = () => {
 
   const submitform = async (e) => {
     e.preventDefault();
-  
+
     await axios.post(`${urltest}/katanaform`, {
       Project: project,
       Website: website,
@@ -51,25 +51,25 @@ const Katana = () => {
           <div className="forminputtitle">
             Project Name
           </div>
-          <input type="text" value={project} onChange={(e) => { setProject(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required/>
+          <input type="text" value={project} onChange={(e) => { setProject(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             Website Link (or) any Social Media handles? 🔗
           </div>
-          <input type="text" value={website} onChange={(e) => { setWebsite(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required/>
+          <input type="text" value={website} onChange={(e) => { setWebsite(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             Discord / Telegram*
           </div>
-          <input type="text" value={discordtelegram} onChange={(e) => { setDiscordtelegram(e.target.value) }} className="form-control" placeholder="Auditor#1234" aria-label="Last name" required/>
+          <input type="text" value={discordtelegram} onChange={(e) => { setDiscordtelegram(e.target.value) }} className="form-control" placeholder="Auditor#1234" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             Email Address *
           </div>
-          <input type="text" value={email} onChange={(e) => { setEmail(e.target.value) }} className="form-control" placeholder="Auditor@email.com" aria-label="Last name" required/>
+          <input type="text" value={email} onChange={(e) => { setEmail(e.target.value) }} className="form-control" placeholder="Auditor@email.com" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
@@ -78,7 +78,7 @@ const Katana = () => {
           <div className="forminputdesc">
             (You can share a link to any of the following: GitHub/Etherscan/Bscscan/Dropbox/GDrive (or) others.)
           </div>
-          <input type="text" value={sourcecode} onChange={(e) => { setSourcecode(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="text" value={sourcecode} onChange={(e) => { setSourcecode(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
@@ -87,22 +87,22 @@ const Katana = () => {
           <div className="forminputdesc">
             Used in case we need to give you access to certain repositories.
           </div>
-          <input type="text" value={github} onChange={(e) => { setGithub(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="text" value={github} onChange={(e) => { setGithub(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             Please describe how you can assist the P2P Audit community and what skills you possess.
           </div>
-          <input type="text" value={contribute} onChange={(e) => { setContribute(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="text" value={contribute} onChange={(e) => { setContribute(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             How did you came to know about P2PAudit? *
           </div>
-          <input type="text" value={know} onChange={(e) => { setKnow(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="text" value={know} onChange={(e) => { setKnow(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
-          <button type="submit" className="formsubmit" aria-label="Last name" > Submit </button>
+          <button type="submit" className="formsubmit" aria-label="Last name" ><div className="formsubmitborder"><div className="formsubmittext"> Submit </div></div></button>
         </div>
       </form>
     </div>

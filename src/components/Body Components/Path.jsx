@@ -5,7 +5,7 @@ const Path = () => {
   return (
     <div className='pathmain'>
       <img src={path} alt="path" className='path'/>
-      <div className="pathbtn">Request an audit</div>
+      <div className="pathbtn"><div className="requestauditbtn">Request an audit</div></div>
     </div>
   )
 }
