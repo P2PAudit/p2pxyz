@@ -13,28 +13,42 @@ const Katana = () => {
   const [contribute, setContribute] = useState("");
   const [know, setKnow] = useState("");
 
+  const [sending, setSending] = useState("Submit");
+  const [tick, setTick] = useState(false);
+
+  const delay = ms => new Promise(res => setTimeout(res, ms));
+
   const submitform = async (e) => {
     e.preventDefault();
-
-    await axios.post(`${urltest}/katanaform`, {
-      Project: project,
-      Website: website,
-      DiscordTelegram: discordtelegram,
-      Email: email,
-      SourceCode: sourcecode,
-      Github: github,
-      Contribute: contribute,
-      Know: know
-    })
-    // .then(props.refresh)
-    setProject("");
-    setWebsite("");
-    setDiscordtelegram("");
-    setEmail("");
-    setSourcecode("");
-    setGithub("");
-    setContribute("");
-    setKnow("");
+    try {
+      setSending("Submiting...");
+      await axios.post(`${urltest}/katanaform`, {
+        Project: project,
+        Website: website,
+        DiscordTelegram: discordtelegram,
+        Email: email,
+        SourceCode: sourcecode,
+        Github: github,
+        Contribute: contribute,
+        Know: know
+      })
+      // .then(props.refresh)
+      setProject("");
+      setWebsite("");
+      setDiscordtelegram("");
+      setEmail("");
+      setSourcecode("");
+      setGithub("");
+      setContribute("");
+      setKnow("");
+      setTick(true);
+      setSending("Submitted");
+      await delay(1500);
+      setTick(false);
+      setSending("Submit");
+    } catch (error) {
+      console.log(error);
+    }
   }
 
 
@@ -102,7 +116,7 @@ const Katana = () => {
           <input type="text" value={know} onChange={(e) => { setKnow(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
-          <button type="submit" className="formsubmit" aria-label="Last name" ><div className="formsubmitborder"><div className="formsubmittext"> Submit </div></div></button>
+          <button type="submit" className="formsubmit" aria-label="Last name" ><div className="formsubmitborder"><div className="formsubmittext">{sending} {tick?<>&#10003;</>:<></>}</div></div></button>
         </div>
       </form>
     </div>

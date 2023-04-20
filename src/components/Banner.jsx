@@ -4,13 +4,11 @@ import { Link, useNavigate } from 'react-router-dom';
 const Banner = () => {
 
   const navigate = useNavigate();
-  function timeout(delay) {
-    return new Promise( res => setTimeout(res, delay) );
-  }
+  const delay = ms => new Promise(res => setTimeout(res, ms));
 
   const handleNavLinkClick = async (path, id) => {
     navigate(path);
-    await timeout(100);
+    await delay(100);
     document.getElementById(id).scrollIntoView();
   };
 
