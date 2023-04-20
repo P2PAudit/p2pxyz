@@ -17,7 +17,7 @@ const Banner = () => {
       <div className="bannerdesc">
         Introducing P2P &nbsp; <span className="bannerhighlight"> AUDITKATANA:</span> &nbsp;A tool , designed to help identify 100+ smart contract bugs and gas optimisation issues
       </div>
-      <div onClick={() => handleNavLinkClick("/", "katana")} className="bannerbtn">
+      <div onClick={() => handleNavLinkClick("/p2pxyz", "katana")} className="bannerbtn">
         <Link>Learn more →</Link>
       </div>
     </div>
