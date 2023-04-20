@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 const urltest = "http://localhost:5000"
+const urlserver = "https://p2pauditserver.vercel.app";
 
 const Request = () => {
 
@@ -24,7 +25,7 @@ const Request = () => {
     e.preventDefault();
     try {
       setSending("Submiting...");
-      await axios.post(`${urltest}/auditrequestform`, {
+      await axios.post(`${urlserver}/auditrequestform`, {
         Project: project,
         Website: website,
         Discord: discord,

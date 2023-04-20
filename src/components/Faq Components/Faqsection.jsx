@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios';
 import Faq from './Faq.jsx';
-const urlserver = "https://p2pserver.vercel.app"
+const urlserver = "https://p2pauditserver.vercel.app"
 const urltest = "http://localhost:5000"
 
 const Faqsection = () => {

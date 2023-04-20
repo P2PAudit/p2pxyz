@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
 const urltest = "http://localhost:5000"
+const urlserver = "https://p2pauditserver.vercel.app";
 
 const Katana = () => {
 
@@ -22,7 +23,7 @@ const Katana = () => {
     e.preventDefault();
     try {
       setSending("Submiting...");
-      await axios.post(`${urltest}/katanaform`, {
+      await axios.post(`${urlserver}/katanaform`, {
         Project: project,
         Website: website,
         DiscordTelegram: discordtelegram,
