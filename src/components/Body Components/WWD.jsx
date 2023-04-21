@@ -5,6 +5,7 @@ import oicon from '../../images/what we do/1icon.svg'
 import tpoint from '../../images/what we do/2point.svg'
 import tbg from '../../images/what we do/2bg.svg'
 import thbg from '../../images/what we do/3bg.svg'
+import { Link } from 'react-router-dom'
 
 const WWD = () => {
   return (
@@ -44,7 +45,7 @@ const WWD = () => {
               Our auditors work with your developers to understand your project. We go line by line to secure your code, so you feel confident to push your code into the wild.
             </div>
             <div className="opointbtn">
-              <div className="requestauditbtn">Request an audit</div>
+              <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/requestform" className="requestauditbtn">Request an audit</Link>
             </div>
           </div>
         </div>

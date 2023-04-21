@@ -17,7 +17,7 @@ const Navbar = () => {
     <div className='navbar' id='#navbar'>
       <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/"><img src={icon1} alt="icon1" /></Link>
       <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/" className='title'>P2PAUDIT.XYZ</Link>
-      <div className="navbtn"><div>Book free <br/> Consultation</div></div>
+      <a href='https://calendly.com/sm4rty/30min' target='_blank' className="navbtn"><div>Book free <br/> Consultation</div></a>
       <div className="navflex">
         <div>About Us</div>
         <div>Blog</div>

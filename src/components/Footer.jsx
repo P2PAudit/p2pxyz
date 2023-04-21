@@ -18,10 +18,10 @@ const Footer = () => {
           <img src={msgbox} alt="msgbox" className='footicon' />
         </a>
         <div className="footbtn">
-          <div className="footbtn2">
+          <a href='https://calendly.com/sm4rty/30min' target='_blank' className="footbtn2">
             <div>Book free<br /> Consultation</div> 
             <img src={arrow1} alt="arrow" className='footicon' />
-          </div>
+          </a>
           <div className="footbtn3">
             <div>Learn Web3 from<br /> our Experts</div> 
             <img src={arrow2} alt="arrow" className='footicon' />
