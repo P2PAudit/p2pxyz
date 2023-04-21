@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const handleNavLinkClick = async (path, id) => {
     navigate(path);
-    await delay(100);
+    await delay(200);
     document.getElementById(id).scrollIntoView();
   };
 

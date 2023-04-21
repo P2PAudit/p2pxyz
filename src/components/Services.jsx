@@ -15,7 +15,7 @@ const Services = () => {
   const delay = ms => new Promise(res => setTimeout(res, ms));
 
   const handleNavLinkClick = async (id) => {
-    await delay(100);
+    await delay(200);
     document.getElementById(id).scrollIntoView();
   };
 
