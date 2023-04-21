@@ -22,10 +22,10 @@ const Footer = () => {
             <div>Book free<br /> Consultation</div> 
             <img src={arrow1} alt="arrow" className='footicon' />
           </a>
-          <div className="footbtn3">
+          <a href='https://github.com/P2PAudit/Our-Experts' target='_blank' className="footbtn3">
             <div>Learn Web3 from<br /> our Experts</div> 
             <img src={arrow2} alt="arrow" className='footicon' />
-          </div>
+          </a>
         </div>
       </div>
       <div className="border1"></div>

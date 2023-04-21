@@ -19,11 +19,11 @@ const Navbar = () => {
       <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/" className='title'>P2PAUDIT.XYZ</Link>
       <a href='https://calendly.com/sm4rty/30min' target='_blank' className="navbtn"><div>Book free <br/> Consultation</div></a>
       <div className="navflex">
-        <div>About Us</div>
-        <div>Blog</div>
+        <div><Link to="https://p2paudit.gitbook.io/" target='_blank'>About Us</Link></div>
+        <div><Link to="https://p2paudit.medium.com/" target='_blank'>Blog</Link></div>
         <div onClick={() => handleNavLinkClick("/services", "services")}><Link>Services</Link></div>
-        <div>Portfolio</div>
-        <div>Education</div>
+        <div><Link to="https://github.com/P2PAudit/portfolio" target='_blank'>Portfolio</Link></div>
+        <div><Link to="https://github.com/P2PAudit/P2PSchool" target='_blank'>Education</Link></div>
       </div>
     </div>
   )

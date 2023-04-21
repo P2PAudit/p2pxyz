@@ -8,7 +8,7 @@ const NotFound = () => {
   const delay = ms => new Promise(res => setTimeout(res, ms));
 
   const handlenotfoundrequest = async () => {
-    await delay(1500);
+    await delay(2000);
     navigate('/');
   }
 
