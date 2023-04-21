@@ -4,7 +4,9 @@ import Footer from './components/Footer';
 import Banner from './components/Banner';
 import Auditor from './components/Forms/Auditor'
 import Request from './components/Forms/Request';
-import Katana from './components/Forms/Katana';
+import Katanaform from './components/Forms/Katanaform';
+import Katanasection from './components/Katanasection';
+import Services from './components/Services';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -19,10 +21,11 @@ function App() {
           <Navbar />
           <Routes>
             <Route index element={<Body />} />
-            <Route path='p2pxyz/' element={<Body />} />
-            <Route path='auditor/' element={<Auditor />} />
-            <Route path='request/' element={<Request />} />
-            <Route path='katana/' element={<Katana />} />
+            <Route path='services/' element={<Services />} />
+            <Route path='katana/' element={<Katanasection />} />
+            <Route path='auditorform/' element={<Auditor />} />
+            <Route path='requestform/' element={<Request />} />
+            <Route path='katanaform/' element={<Katanaform />} />
           </Routes>
           <Footer />
           <Banner />

@@ -3,7 +3,7 @@ import axios from 'axios'
 const urltest = "http://localhost:5000"
 const urlserver = "https://p2pauditserver.vercel.app";
 
-const Katana = () => {
+const Katanaform = () => {
 
   const [project, setProject] = useState("");
   const [website, setWebsite] = useState("");
@@ -124,4 +124,4 @@ const Katana = () => {
   )
 }
 
-export default Katana
+export default Katanaform;

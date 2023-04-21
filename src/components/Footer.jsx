@@ -31,12 +31,12 @@ const Footer = () => {
       <div className="border1"></div>
       <div className="footbtnsection">
         <div className="openorg">An open organization</div>
-        <div className="medialink">Twitter</div>
-        <div className="medialink">Discord</div>
-        <div className="medialink">GitHub</div>
-        <div className="medialink">Medium</div>
-        <div className="medialink">Telegram</div>
-        <div className="medialink">Youtube</div>
+        <a className="medialink" href='https://twitter.com/p2pAudit' target="_blank">Twitter</a>
+        <a className="medialink" href='https://discord.gg/4DFQME6KxS' target="_blank">Discord</a>
+        <a className="medialink" href='https://github.com/P2PAudit' target="_blank">GitHub</a>
+        <a className="medialink" href='https://p2paudit.medium.com' target="_blank">Medium</a>
+        <a className="medialink" href='https://t.me/p2p_audit' target="_blank">Telegram</a>
+        <a className="medialink" href='https://www.youtube.com/@P2PAudit' target="_blank">Youtube</a>
       </div>
       <div className="border2"></div>
       <div className="rights">© 2023 P2PAudit ®. All rights reserved.</div>
