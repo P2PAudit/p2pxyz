@@ -2045,3 +2045,10 @@ option {
 .applyaudit:hover {
   box-shadow: 0px 0px 100px 10px silver;
 }
+
+.rsarpath:hover {
+  background-image: url(./images/rsarbgv.svg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: 52% 0%;
+}
