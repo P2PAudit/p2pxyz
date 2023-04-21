@@ -857,7 +857,6 @@ a {
   font-size: 16px;
   line-height: 26px;
   /* or 159% */
-  margin-top: 10%;
   
   display: flex;
   align-items: center;
@@ -866,10 +865,36 @@ a {
   color: #FFFFFF;  
 }
 
-.whatwedo {
-  background-image: url(images/what\ we\ do/ellipse.svg);
+@keyframes bgblurchange {
+  0%  {
+    background-image: url(images/what\ we\ do/ellipse1.svg);
+  }
+  25%  {
+    background-image: url(images/what\ we\ do/ellipse2.svg);
+  }
+  50%  {
+    background-image: url(images/what\ we\ do/ellipse3.svg);
+  }
+  75%  {
+    background-image: url(images/what\ we\ do/ellipse4.svg);
+  }
+  100%  {
+    background-image: url(images/what\ we\ do/ellipse5.svg);
+  }
+}
+
+.whatwedo:hover {
+  animation-name: bgblurchange;
+  animation-duration: 5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+
   background-repeat: no-repeat;
   background-size: contain;
+  background-position: center;
+}
+
+.whatwedo {
   width: 50%;
 }
 
@@ -1626,7 +1651,7 @@ a {
 }
 
 .bgblur {
-  background-image: url(./images/what\ we\ do/ellipse.svg);
+  background-image: url(./images/what\ we\ do/ellipse1.svg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: 50%;
