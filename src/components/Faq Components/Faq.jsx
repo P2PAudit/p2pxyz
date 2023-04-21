@@ -1,4 +1,5 @@
 import React from 'react'
+import faqarr from '../../images/faqarr.svg'
 
 const Faq = (props) => {
   return (
@@ -13,6 +14,7 @@ const Faq = (props) => {
       </label> 
       <input type="checkbox" name='accordian' id={props.faq._id}/>
       <div className="contentaccordian">
+        <img src={faqarr} alt="faq arrow" className='faqarr'/>
         <p>{props.faq.answer}</p>
       </div>
     </li>

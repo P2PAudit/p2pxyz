@@ -1526,6 +1526,10 @@ a {
   color: #8364d9;
 }
 
+.contentaccordian {
+  display: flex;
+}
+
 #accordian .contentaccordian {
   overflow: hidden;
   max-height: 0;
@@ -1543,7 +1547,14 @@ a {
 }
 
 .contentaccordian {
-  margin-left: 6%;
+  margin-left: 1.5%;
+}
+
+.faqarr {
+  padding-top: 2.6%;
+  padding-right: 1%;
+  width: 20px;
+  height: 20px;
 }
 
 .faqlabelmain {
