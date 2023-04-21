@@ -64,7 +64,7 @@ const Katanaform = () => {
       <form onSubmit={submitform}>
         <div className="inputbox">
           <div className="forminputtitle">
-            Project Name
+            Project Name *
           </div>
           <input type="text" value={project} onChange={(e) => { setProject(e.target.value) }} className="form-control" placeholder="Project Name" aria-label="Last name" required />
         </div>
@@ -72,7 +72,7 @@ const Katanaform = () => {
           <div className="forminputtitle">
             Website Link (or) any Social Link * 🔗
           </div>
-          <input type="url" value={website} onChange={(e) => { setWebsite(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required />
+          <input type="url" value={website} onChange={(e) => { setWebsite(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">

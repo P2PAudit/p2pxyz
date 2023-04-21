@@ -99,12 +99,12 @@ const Codereview = () => {
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Social Links *
+            Social Links (Optional)
           </div>
           <div className="forminputdesc">
             Link your Medium , Substack , etc.
           </div>
-          <input type="url" value={social} onChange={(e) => { setSocial(e.target.value) }} className="form-control" aria-label="Last name" required />
+          <input type="url" value={social} onChange={(e) => { setSocial(e.target.value) }} className="form-control" aria-label="Last name" />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
@@ -113,7 +113,7 @@ const Codereview = () => {
           <div className="forminputdesc">
             (You can share a link to any of the following: GitHub/Etherscan/Bscscan/Dropbox/GDrive (or) others.)
           </div>
-          <input type="text" value={sourcecode} onChange={(e) => { setSourcecode(e.target.value) }} className="form-control" aria-label="Last name" required />
+          <input type="url" value={sourcecode} onChange={(e) => { setSourcecode(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">

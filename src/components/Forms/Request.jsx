@@ -89,13 +89,22 @@ const Request = () => {
           <div className="forminputtitle">
             Email Address *
           </div>
-          <input type="url" value={email} onChange={(e) => { setEmail(e.target.value) }} className="form-control" placeholder="Auditor@email.com" aria-label="Last name" required />
+          <input type="email" value={email} onChange={(e) => { setEmail(e.target.value) }} className="form-control" placeholder="Auditor@email.com" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
             Twitter/LinkedIn profile link *
           </div>
           <input type="url" value={twitter} onChange={(e) => { setTwitter(e.target.value) }} className="form-control" aria-label="Last name" required />
+        </div>
+        <div className="inputbox">
+          <div className="forminputtitle">
+            Social Links (Optional)
+          </div>
+          <div className="forminputdesc">
+            Link your Medium , Substack , etc.
+          </div>
+          <input type="url" value={social} onChange={(e) => { setSocial(e.target.value) }} className="form-control" aria-label="Last name" />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">

@@ -112,12 +112,12 @@ const Auditor = () => {
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Social Links *
+            Social Links (Optional)
           </div>
           <div className="forminputdesc">
             Link your Medium , Substack , etc.
           </div>
-          <input type="url" value={social} onChange={(e) => { setSocial(e.target.value) }} className="form-control" aria-label="Last name" required/>
+          <input type="url" value={social} onChange={(e) => { setSocial(e.target.value) }} className="form-control" aria-label="Last name" />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
