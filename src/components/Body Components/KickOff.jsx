@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const KickOff = () => {
   return (
@@ -10,9 +11,9 @@ const KickOff = () => {
         <div className="kick2">
           There's no better moment to safeguard your project than the present.
         </div>
-        <div className="kickbtn">
+        <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/requestform" className="kickbtn">
           Let’s Kick Off
-        </div>
+        </Link>
       </div>
     </div>
   )

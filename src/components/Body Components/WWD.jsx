@@ -66,9 +66,9 @@ const WWD = () => {
               <div className="tpointdesc">
                 A code review is a great way to confirm you're building in the right direction, with the right tech stack, and making use of cost-savings. It supplies you with the understanding needed to prepare for a full security audit.
               </div>
-              <div className="tpointbtn">
+              <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/codereviewform" className="tpointbtn">
                 Request Code Review
-              </div>
+              </Link>
             </div>
             <div className="tpointbg">
               <img src={tbg} alt="tbg" />
@@ -85,9 +85,9 @@ const WWD = () => {
           <div className="thpointdesc">
             Wallet extension and app penetration testing audit involve a comprehensive analysis of the wallet's security, including its encryption methods, authentication processes, and communication protocols.
           </div>
-          <div className="thpointbtn">
+          <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/walletauditform" className="thpointbtn">
             Request Wallet audit
-          </div>
+          </Link>
         </div>
         <div className="thpointbg">
           <img src={thbg} alt="thbg" />
