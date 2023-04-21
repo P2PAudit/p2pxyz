@@ -13,7 +13,7 @@ const Faq = (props) => {
       </label> 
       <input type="checkbox" name='accordian' id={props.faq._id}/>
       <div className="contentaccordian">
-        <p>'{props.faq.answer}'</p>
+        <p>{props.faq.answer}</p>
       </div>
     </li>
   )
