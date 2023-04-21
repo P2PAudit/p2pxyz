@@ -66,17 +66,17 @@ const Katanaform = () => {
           <div className="forminputtitle">
             Project Name
           </div>
-          <input type="text" value={project} onChange={(e) => { setProject(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required />
+          <input type="text" value={project} onChange={(e) => { setProject(e.target.value) }} className="form-control" placeholder="Project Name" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Website Link (or) any Social Media handles? 🔗
+            Website Link (or) any Social Link * 🔗
           </div>
-          <input type="text" value={website} onChange={(e) => { setWebsite(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required />
+          <input type="url" value={website} onChange={(e) => { setWebsite(e.target.value) }} className="form-control" placeholder="Username" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Discord / Telegram*
+            Discord Username *
           </div>
           <input type="text" value={discordtelegram} onChange={(e) => { setDiscordtelegram(e.target.value) }} className="form-control" placeholder="Auditor#1234" aria-label="Last name" required />
         </div>
@@ -84,16 +84,16 @@ const Katanaform = () => {
           <div className="forminputtitle">
             Email Address *
           </div>
-          <input type="text" value={email} onChange={(e) => { setEmail(e.target.value) }} className="form-control" placeholder="Auditor@email.com" aria-label="Last name" required />
+          <input type="email" value={email} onChange={(e) => { setEmail(e.target.value) }} className="form-control" placeholder="Auditor@email.com" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Please provide us with the link to your smart contracts source code? 📚
+            Please provide us with the link to your smart contracts source code? * 📚
           </div>
           <div className="forminputdesc">
             (You can share a link to any of the following: GitHub/Etherscan/Bscscan/Dropbox/GDrive (or) others.)
           </div>
-          <input type="text" value={sourcecode} onChange={(e) => { setSourcecode(e.target.value) }} className="form-control" aria-label="Last name" required />
+          <input type="url" value={sourcecode} onChange={(e) => { setSourcecode(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
@@ -102,11 +102,11 @@ const Katanaform = () => {
           <div className="forminputdesc">
             Used in case we need to give you access to certain repositories.
           </div>
-          <input type="text" value={github} onChange={(e) => { setGithub(e.target.value) }} className="form-control" aria-label="Last name" required />
+          <input type="url" value={github} onChange={(e) => { setGithub(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Please describe how you can assist the P2P Audit community and what skills you possess.
+            Please describe how you can assist the P2P Audit community and what skills you possess? *
           </div>
           <input type="text" value={contribute} onChange={(e) => { setContribute(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
