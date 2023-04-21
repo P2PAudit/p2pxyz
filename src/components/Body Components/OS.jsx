@@ -22,9 +22,9 @@ const OS = () => {
               <div className="utbgicon">
                 <img src={ut} alt="utbgicon" />
               </div>
-              <div className="utbtn">
+              <a className="utbtn" href='https://discord.gg/4zTqbXMJZ6' target='_blank'>
                 Request
-              </div>
+              </a>
             </div>
           </div>
         </div>
@@ -40,9 +40,9 @@ const OS = () => {
                 <div className="arrdesc">
                   Our Audit Readiness review, conducted by experts, will assist project owners in comprehensively preparing for an audit and getting the most out of it.
                 </div>
-                <div className="arrbtn">
+                <a className="arrbtn" href='https://discord.gg/NW8ZdCRUFS' target='_blank'>
                     Request Review
-                </div>
+                </a>
               </div>
               <div className="arrbg">
                 <div className="arrbgicon">
@@ -60,9 +60,9 @@ const OS = () => {
                 <div className="tladesc">
                   We have extensive connections within the Web3 space, enabling us to assist you in getting your cryptocurrency listed on various crypto exchanges.
                 </div>
-                <div className="tlabtn">
+                <a className="tlabtn" href='https://discord.gg/hG5sewXVxu' target='_blank'>
                   Access Feature
-                </div>
+                </a>
               </div>
               <div className="tlabg">
                 <div className="tlabgicon">

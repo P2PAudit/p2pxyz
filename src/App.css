@@ -609,8 +609,6 @@ a {
   left: calc(50% - 340px/2 - 378px);
   bottom: 8338px;
 
-  box-shadow: 0px 0px 1000px 20px white;
-
   background: linear-gradient(94.78deg, #9F7FF9 48.64%, #B4B4A5 61.27%);;
   border-radius: 44px;
   padding: 5px;
@@ -628,6 +626,10 @@ a {
   justify-content: center;
 
   color: #000000;
+}
+
+.katanabtn:hover {
+  box-shadow: 0px 0px 1000px 20px silver;
 }
 
 .cavd {
@@ -795,7 +797,6 @@ a {
   margin-top: -6%;
   margin-right: 15%;
 
-  box-shadow: 0px 0px 125px 12px white;
 
   padding: 5px;
 
@@ -816,6 +817,10 @@ a {
   justify-content: center;
   
   color: #020102;
+}
+
+.pathbtn:hover {
+  box-shadow: 0px 0px 125px 12px silver;
 }
 
 .wwd1 {
@@ -2035,4 +2040,8 @@ option {
 
 .notfound {
   width: 100%;
+}
+
+.applyaudit:hover {
+  box-shadow: 0px 0px 100px 10px silver;
 }
