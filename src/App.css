@@ -1065,8 +1065,12 @@ a {
   padding-bottom: 5%;
 }
 
-.wwd1 , .wwd2 , .wwd3 {
+.wwd3 {
   margin-top: 5%;
+  display: flex;
+}
+
+.wwd1 , .wwd2  {
   display: flex;
 }
 
