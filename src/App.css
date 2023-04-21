@@ -288,7 +288,7 @@ a {
   width: 110%;
   height: 100%;
   animation-name: coinmove;
-  animation-duration: 2s;
+  animation-duration: 4s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -518,7 +518,7 @@ a {
   width: 50%;
   background-image: url(./images/backgroundshade.svg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
   margin-left: 5%;
   margin-top: -3%;
   display: flex;
@@ -940,7 +940,7 @@ a {
 .opointbg {
   background-image: url(images/what\ we\ do/1bg.svg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: contain;
   height:60%;
   margin-top: 7%;
 }
