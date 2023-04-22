@@ -2090,3 +2090,57 @@ option {
   background-repeat: no-repeat;
   background-size: contain;
 }
+
+.blogs {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.blogssection {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.blogimage {
+  width: 100%;
+}
+
+.blogbox {
+  border: 3px solid white;
+  border-radius: 40px;
+  margin: 5%;
+  color: white;
+}
+
+.blogtitle {
+  font-family: 'Bruno Ace SC';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.528px;
+  line-height: 47px;
+}
+
+.blogdesc {
+  font-family: 'Brinann';
+  font-style: normal;
+  font-weight: 700;
+  padding: 4%;
+  text-align: left;
+}
+
+.bloghead {
+  margin: 2% auto;
+  width: fit-content;
+
+  font-family: 'Brinnan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37.528px;
+  line-height: 47px;
+  /* or 124% */
+
+  display: flex;
+  align-items: center;
+
+  color: #FFFFFF;
+}

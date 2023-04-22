@@ -2,6 +2,7 @@ import React from 'react'
 import msgbox from '../images/footer/msgbox.svg'
 import arrow1 from '../images/footer/arrow1.svg'
 import arrow2 from '../images/footer/arrow2.svg'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -39,7 +40,7 @@ const Footer = () => {
         <a className="medialink" href='https://www.youtube.com/@P2PAudit' target="_blank">Youtube</a>
       </div>
       <div className="border2"></div>
-      <div className="rights">© 2023 P2PAudit ®. All rights reserved.</div>
+      <div className="rights">© 2023 P2PAudit ®. All rights reserved<Link to='/blogs'>.</Link></div>
     </div>
   )
 }
