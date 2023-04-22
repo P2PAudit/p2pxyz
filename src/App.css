@@ -1440,7 +1440,7 @@ a {
   border-radius: 10px;
   background: linear-gradient(90deg, #9F80F9 0%, #EBE1F7 100%);
   padding: 3px;
-  width: 80%;
+  width: 75%;
   margin: 5% auto;
 }
 
@@ -2065,4 +2065,27 @@ option {
   background-repeat: no-repeat;
   background-size: 30%;
   background-position: 52% 0%;
+}
+
+
+@keyframes kickoffblur {
+  0% {
+    background-position: 0%;
+  }
+  100% {
+    background-position: 100%;
+  }
+}
+
+.KickOffbg {
+  padding: 5% 0%;
+  /* width: 50%; */
+  animation-name: kickoffblur;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  background-image: url(./images/kickoffbg.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
 }
