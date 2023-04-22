@@ -25,7 +25,6 @@ function App() {
           <Routes>
             <Route index element={<Body />} />
             <Route path='*' element={<NotFound />}/>
-            <Route path='p2pxyz/' element={<Body />} />
             <Route path='services/' element={<Services />} />
             <Route path='katana/' element={<Katanasection />} />
             <Route path='auditorform/' element={<Auditor />} />
