@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "//p2paudit.github.io/p2pxyz/static/css/main.08bea292.css",
-    "main.js": "//p2paudit.github.io/p2pxyz/static/js/main.5348db0c.js",
+    "main.css": "//p2paudit.github.io/p2pxyz/static/css/main.3107774f.css",
+    "main.js": "//p2paudit.github.io/p2pxyz/static/js/main.a4141df3.js",
     "static/js/787.cd524ff2.chunk.js": "//p2paudit.github.io/p2pxyz/static/js/787.cd524ff2.chunk.js",
     "static/media/cavd.svg": "//p2paudit.github.io/p2pxyz/static/media/cavd.a10ae18680068e871693.svg",
     "static/media/backgroundshade.svg": "//p2paudit.github.io/p2pxyz/static/media/backgroundshade.3ffd4dbb1ee3a4b903f4.svg",
     "static/media/coin.svg": "//p2paudit.github.io/p2pxyz/static/media/coin.e8471d20f09658305560e72397758630.svg",
     "static/media/tla.svg": "//p2paudit.github.io/p2pxyz/static/media/tla.b34b32307c5d42c6e84de4b8bf500978.svg",
     "static/media/3bg.svg": "//p2paudit.github.io/p2pxyz/static/media/3bg.ba5807ff173d9e61c0d7c1a4088a18da.svg",
+    "static/media/sheild.svg": "//p2paudit.github.io/p2pxyz/static/media/sheild.847473eabc966ce90d4318f7e0ee6391.svg",
     "static/media/vtvl.svg": "//p2paudit.github.io/p2pxyz/static/media/vtvl.1ef501c0ef7135438ef0adc1c4704d82.svg",
-    "static/media/sheild.svg": "//p2paudit.github.io/p2pxyz/static/media/sheild.74d2ae834e5aeb89ce3ddef89201a016.svg",
     "static/media/pladin.svg": "//p2paudit.github.io/p2pxyz/static/media/pladin.bd69e03d72b84e5b765e1861756bb426.svg",
     "static/media/RSAR.svg": "//p2paudit.github.io/p2pxyz/static/media/RSAR.97fa26b14094473668a5512473a3e050.svg",
     "static/media/path.svg": "//p2paudit.github.io/p2pxyz/static/media/path.01bc0b7c13c7ea10b6ad8dd89071e863.svg",
@@ -33,25 +33,22 @@
     "static/media/juicebox.svg": "//p2paudit.github.io/p2pxyz/static/media/juicebox.a65ad3a958dd592e2c0b18bb94446632.svg",
     "static/media/1point.svg": "//p2paudit.github.io/p2pxyz/static/media/1point.89552e9a838021e8621c0e8fa62f5c5d.svg",
     "static/media/cavdicon.svg": "//p2paudit.github.io/p2pxyz/static/media/cavdicon.e43d9be84889fe06a9c4f33acd62315a.svg",
+    "static/media/kickoffbg.svg": "//p2paudit.github.io/p2pxyz/static/media/kickoffbg.25684d6bba6ecfca062a.svg",
     "static/media/2point.svg": "//p2paudit.github.io/p2pxyz/static/media/2point.542a60c4c7ff903015a9dcf08f1fedb4.svg",
     "static/media/msgbox.svg": "//p2paudit.github.io/p2pxyz/static/media/msgbox.85ab6c0ab41667deeb4c16f2940b23ed.svg",
     "static/media/frt.svg": "//p2paudit.github.io/p2pxyz/static/media/frt.6da4ef7ab67a086a6eb0.svg",
     "index.html": "//p2paudit.github.io/p2pxyz/index.html",
     "static/media/rsarbgv.svg": "//p2paudit.github.io/p2pxyz/static/media/rsarbgv.241238ba483111b73561.svg",
-    "static/media/ellipse3.svg": "//p2paudit.github.io/p2pxyz/static/media/ellipse3.e9eb9585adbd5ff40ccb.svg",
-    "static/media/ellipse4.svg": "//p2paudit.github.io/p2pxyz/static/media/ellipse4.b5894a5f40bad12ae642.svg",
-    "static/media/ellipse5.svg": "//p2paudit.github.io/p2pxyz/static/media/ellipse5.c0a432dfc9069749719e.svg",
     "static/media/faqarr.svg": "//p2paudit.github.io/p2pxyz/static/media/faqarr.430ecec4b6541b1d8684c0aecfa3e4b0.svg",
     "static/media/ellipse1.svg": "//p2paudit.github.io/p2pxyz/static/media/ellipse1.70e02ee062b96b25d8bf.svg",
-    "static/media/ellipse2.svg": "//p2paudit.github.io/p2pxyz/static/media/ellipse2.6a6ba5d567120f277d2e.svg",
     "static/media/arrow1.svg": "//p2paudit.github.io/p2pxyz/static/media/arrow1.76e6960aa70f89266b6787b9093ec52e.svg",
     "static/media/arrow2.svg": "//p2paudit.github.io/p2pxyz/static/media/arrow2.d658de0458e4995a627513f8d738dce0.svg",
-    "main.08bea292.css.map": "//p2paudit.github.io/p2pxyz/static/css/main.08bea292.css.map",
-    "main.5348db0c.js.map": "//p2paudit.github.io/p2pxyz/static/js/main.5348db0c.js.map",
+    "main.3107774f.css.map": "//p2paudit.github.io/p2pxyz/static/css/main.3107774f.css.map",
+    "main.a4141df3.js.map": "//p2paudit.github.io/p2pxyz/static/js/main.a4141df3.js.map",
     "787.cd524ff2.chunk.js.map": "//p2paudit.github.io/p2pxyz/static/js/787.cd524ff2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08bea292.css",
-    "static/js/main.5348db0c.js"
+    "static/css/main.3107774f.css",
+    "static/js/main.a4141df3.js"
   ]
 }
