@@ -1071,6 +1071,7 @@ a {
 }
 
 .wwd1 , .wwd2  {
+  margin-top: 2%;
   display: flex;
 }
 
