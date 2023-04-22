@@ -18,7 +18,7 @@ const Footer = () => {
           <img src={msgbox} alt="msgbox" className='footicon' />
         </a>
         <div className="footbtn">
-          <a href='https://calendly.com/sm4rty/30min' target='_blank' className="footbtn2">
+          <a href='https://calendly.com/p2p-audit/30min' target='_blank' className="footbtn2">
             <div>Book free<br /> Consultation</div> 
             <img src={arrow1} alt="arrow" className='footicon' />
           </a>
