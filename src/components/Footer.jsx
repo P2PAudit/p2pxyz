@@ -40,7 +40,7 @@ const Footer = () => {
         <a className="medialink" href='https://www.youtube.com/@P2PAudit' target="_blank">Youtube</a>
       </div>
       <div className="border2"></div>
-      <div className="rights">© 2023 P2PAudit ®. All rights reserved<Link to='/blogs'>.</Link></div>
+      <div className="rights">© 2023 P2PAudit ®. All rights reserved<Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to='/blogs'>.</Link></div>
     </div>
   )
 }

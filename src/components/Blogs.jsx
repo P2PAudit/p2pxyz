@@ -7,15 +7,15 @@ const Blogs = () => {
 
   const [content, setContent] = useState([]);
 
-
+  
   useEffect(() => {
     axios.get('https://api.github.com/repos/prasantgupta52/sample-blogs/contents')
-      .then(response => {
-        setContent(response.data);
-      })
-      .catch(error => {
-        console.log(error);
-      });
+    .then(response => {
+      setContent(response.data);
+    })
+    .catch(error => {
+      console.log(error);
+    });
   }, [])
 
 
