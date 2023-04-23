@@ -13,7 +13,8 @@ const Request = () => {
   const [social, setSocial] = useState("");
   const [sourcecode, setSourcecode] = useState("");
   const [github, setGithub] = useState("");
-  const [contribute, setContribute] = useState("");
+  const [budgetpreferred, setBudgetpreferred] = useState("");
+  const [stateofcode, setStateofcode] = useState("");
   const [know, setKnow] = useState("");
 
   const [sending, setSending] = useState("Submit");
@@ -34,7 +35,8 @@ const Request = () => {
         Social: social,
         SourceCode: sourcecode,
         Github: github,
-        Contribute: contribute,
+        Budgetpreferred: budgetpreferred,
+        Stateofcode: stateofcode,
         Know: know
       })
       // .then(props.refresh)
@@ -46,7 +48,8 @@ const Request = () => {
       setSocial("");
       setSourcecode("");
       setGithub("");
-      setContribute("");
+      setBudgetpreferred("");
+      setStateofcode("");
       setKnow("");
       setTick(true);
       setSending("Submitted");
@@ -126,9 +129,22 @@ const Request = () => {
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Please describe how you can assist the P2P Audit community and what skills you possess ? *
+            Budget preferred (in $)*
           </div>
-          <input type="text" value={contribute} onChange={(e) => { setContribute(e.target.value) }} className="form-control" aria-label="Last name" required />
+          <input type="number" value={budgetpreferred} onChange={(e) => { setBudgetpreferred(e.target.value) }} className="form-control" aria-label="Last name" required />
+        </div>
+        <div className="inputbox">
+          <div className="forminputtitle">
+            Service preferred *
+          </div>
+          <select value={stateofcode} onChange={(e) => { setStateofcode(e.target.value) }} required>
+
+            <option value="" disabled selected>Select an option</option>
+            <option value="Contracts are Under development">Contracts are Under development</option>
+            <option value="Contract fully developed and ready for audit">Contract fully developed and ready for audit</option>
+            <option value="Any other audit performed before">Any other audit performed before</option>
+
+          </select>
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
