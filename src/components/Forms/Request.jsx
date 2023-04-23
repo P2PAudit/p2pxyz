@@ -10,9 +10,7 @@ const Request = () => {
   const [discord, setDiscord] = useState("");
   const [email, setEmail] = useState("");
   const [twitter, setTwitter] = useState("");
-  const [social, setSocial] = useState("");
   const [sourcecode, setSourcecode] = useState("");
-  const [github, setGithub] = useState("");
   const [budgetpreferred, setBudgetpreferred] = useState("");
   const [stateofcode, setStateofcode] = useState("");
   const [know, setKnow] = useState("");
@@ -32,9 +30,7 @@ const Request = () => {
         Discord: discord,
         Email: email,
         Twitter: twitter,
-        Social: social,
         SourceCode: sourcecode,
-        Github: github,
         Budgetpreferred: budgetpreferred,
         Stateofcode: stateofcode,
         Know: know
@@ -45,9 +41,7 @@ const Request = () => {
       setDiscord("");
       setEmail("");
       setTwitter("");
-      setSocial("");
       setSourcecode("");
-      setGithub("");
       setBudgetpreferred("");
       setStateofcode("");
       setKnow("");
@@ -78,13 +72,16 @@ const Request = () => {
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Website Link (or) any Social Links * 🔗
+            Website Link * 🔗
           </div>
           <input type="url" value={website} onChange={(e) => { setWebsite(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Discord Username *
+            Best Way to Connect with you ? *
+          </div>
+          <div className="forminputdesc">
+            Share Your Discord or Telegram Id
           </div>
           <input type="text" value={discord} onChange={(e) => { setDiscord(e.target.value) }} className="form-control" placeholder="Auditor#1234" aria-label="Last name" required />
         </div>
@@ -96,18 +93,12 @@ const Request = () => {
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Twitter/LinkedIn profile link *
-          </div>
-          <input type="url" value={twitter} onChange={(e) => { setTwitter(e.target.value) }} className="form-control" aria-label="Last name" required />
-        </div>
-        <div className="inputbox">
-          <div className="forminputtitle">
-            Social Links (Optional)
+            Social profile link *
           </div>
           <div className="forminputdesc">
-            Link your Medium , Substack , etc.
+            Link Your Project's Twitter or Linkedin Profile
           </div>
-          <input type="url" value={social} onChange={(e) => { setSocial(e.target.value) }} className="form-control" aria-label="Last name" />
+          <input type="url" value={twitter} onChange={(e) => { setTwitter(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
@@ -120,22 +111,13 @@ const Request = () => {
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            GitHub Profile link *
-          </div>
-          <div className="forminputdesc">
-            Used in case we need to give you access to certain repositories.
-          </div>
-          <input type="url" value={github} onChange={(e) => { setGithub(e.target.value) }} className="form-control" aria-label="Last name" required />
-        </div>
-        <div className="inputbox">
-          <div className="forminputtitle">
-            Budget preferred (in $)*
+            Budget preferred (in $) *
           </div>
           <input type="number" value={budgetpreferred} onChange={(e) => { setBudgetpreferred(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Service preferred *
+            State of Code *
           </div>
           <select value={stateofcode} onChange={(e) => { setStateofcode(e.target.value) }} required>
 
