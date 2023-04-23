@@ -2144,3 +2144,8 @@ option {
 
   color: #FFFFFF;
 }
+
+.blogssection a:first-child{
+  grid-column: 1 / span 3;
+  margin: 2%;
+}
