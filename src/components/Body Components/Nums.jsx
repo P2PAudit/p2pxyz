@@ -10,7 +10,7 @@ const Nums = () => {
     <ScrollTrigger onEnter={() => setCounteron(true)} onExit={() => setCounteron(false)} className='nums'>
       <div className="cardnum">
         <div className="head">
-          ${counteron && <CountUp start={0} end={10} duration={4} delay={0}/>}Bn+
+          ${counteron && <CountUp start={0} end={10} duration={1.8} delay={0.4}/>}Bn+
         </div>
         <div className="desc">
           Blockchain<br/> Integrations
@@ -18,7 +18,7 @@ const Nums = () => {
       </div>
       <div className="cardnum">
         <div className="head">
-          {counteron && <CountUp start={0} end={63} duration={4} delay={0}/>}
+          {counteron && <CountUp start={0} end={63} duration={1.8} delay={0.4}/>}
         </div>
         <div className="desc">
           Projects<br /> audited
@@ -26,7 +26,7 @@ const Nums = () => {
       </div>
       <div className="cardnum">
         <div className="head">
-          ${counteron && <CountUp start={0} end={8} duration={4} delay={0}/>}Mn+
+          ${counteron && <CountUp start={0} end={8} duration={1.8} delay={0.4}/>}Mn+
         </div>
         <div className="desc">
           Amount<br/> protected
@@ -34,7 +34,7 @@ const Nums = () => {
       </div>
       <div className="cardnum">
         <div className="head">
-        {counteron && <CountUp start={0} end={145} duration={4} delay={0}/>}+
+        {counteron && <CountUp start={0} end={145} duration={1.8} delay={0.4}/>}+
         </div>
         <div className="desc">
           Critical/high/<br />medium Findings
