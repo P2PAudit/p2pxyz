@@ -1,5 +1,6 @@
 import React , { useEffect , useState } from 'react'
 import { Link } from "react-router-dom"
+import ReactMarkdown from 'react-markdown';
 import axios from 'axios';
 
 const Blog = (props) => {
@@ -15,7 +16,7 @@ const Blog = (props) => {
       .catch(error => {
         console.log(error);
       });
-    axios.get(`https://raw.githubusercontent.com/prasantgupta52/sample-blogs/main/${props.ele.name}/desc.txt`)
+    axios.get(`https://raw.githubusercontent.com/prasantgupta52/sample-blogs/main/${props.ele.name}/README.md`)
       .then(response => {
         setDesc(response.data);
       })
@@ -25,7 +26,7 @@ const Blog = (props) => {
   }, [])
 
   return (
-    <Link to={`https://github.com/prasantgupta52/sample-blogs/blob/main/${props.ele.name}/README.md`} target="_blank" className='blogbox'>  
+    <Link target="_blank" className='blogbox'>  
      {props.imgbanner === "small" ? (
             <img src={`https://raw.githubusercontent.com/prasantgupta52/sample-blogs/main/${props.ele.name}/assets/1bg.svg`} alt="blog image" className='blogimage'/>
           ) : (
@@ -33,7 +34,7 @@ const Blog = (props) => {
           )
       }
       <div className="blogtitle">{title}</div>
-      <div className="blogdesc">{desc}</div>
+      <div className="blogdesc"><ReactMarkdown>{desc}</ReactMarkdown></div>
     </Link>
   )
 }

@@ -1,5 +1,5 @@
 {
-  "homepage": "https://https://p2paudit.github.io/p2pxyz/",
+  "homepage": "https://p2paudit.github.io/p2pxyz/",
   "name": "p2pxyz",
   "version": "0.1.0",
   "private": true,
@@ -11,6 +11,7 @@
     "react": "^18.2.0",
     "react-countup": "^6.4.2",
     "react-dom": "^18.2.0",
+    "react-markdown": "^8.0.7",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
     "react-scroll-trigger": "^0.6.14",
