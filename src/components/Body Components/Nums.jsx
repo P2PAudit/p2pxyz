@@ -1,11 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
+import CountUp from 'react-countup';
+import ScrollTrigger from 'react-scroll-trigger';
 
 const Nums = () => {
+
+  const [counteron, setCounteron] = useState(false);
+
   return (
-    <div className='nums'>
+    <ScrollTrigger onEnter={() => setCounteron(true)} onExit={() => setCounteron(false)} className='nums'>
       <div className="cardnum">
         <div className="head">
-          $10Bn+
+          ${counteron && <CountUp start={0} end={10} duration={4} delay={0}/>}Bn+
         </div>
         <div className="desc">
           Blockchain<br/> Integrations
@@ -13,7 +18,7 @@ const Nums = () => {
       </div>
       <div className="cardnum">
         <div className="head">
-          63
+          {counteron && <CountUp start={0} end={63} duration={4} delay={0}/>}
         </div>
         <div className="desc">
           Projects<br /> audited
@@ -21,7 +26,7 @@ const Nums = () => {
       </div>
       <div className="cardnum">
         <div className="head">
-          $8Mn+
+          ${counteron && <CountUp start={0} end={8} duration={4} delay={0}/>}Mn+
         </div>
         <div className="desc">
           Amount<br/> protected
@@ -29,13 +34,13 @@ const Nums = () => {
       </div>
       <div className="cardnum">
         <div className="head">
-          145+
+        {counteron && <CountUp start={0} end={145} duration={4} delay={0}/>}+
         </div>
         <div className="desc">
           Critical/high/<br />medium Findings
         </div>
       </div>
-    </div>
+    </ScrollTrigger>
   )
 }
 
