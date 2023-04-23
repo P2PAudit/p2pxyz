@@ -521,8 +521,8 @@ a {
 .gasopt {
   width: 50%;
   background-image: url(./images/backgroundshade.svg);
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-size: contain;
   margin-left: 5%;
   margin-top: -3%;
   display: flex;
