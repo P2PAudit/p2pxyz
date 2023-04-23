@@ -11,6 +11,7 @@ import Codereview from './components/Forms/Codereview';
 import Walletaudit from './components/Forms/Walletaudit';
 import NotFound from './components/NotFound';
 import Blogs from './components/Blogs';
+import Thankyou from './components/Thankyou';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -26,6 +27,7 @@ function App() {
           <Routes>
             <Route index element={<Body />} />
             <Route path='*' element={<NotFound />}/>
+            <Route path='thankyou/' element={<Thankyou />}/>
             <Route path='services/' element={<Services />} />
             <Route path='katana/' element={<Katanasection />} />
             <Route path='auditorform/' element={<Auditor />} />
