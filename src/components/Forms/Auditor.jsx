@@ -1,9 +1,12 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+import { useNavigate } from 'react-router-dom';
 const urltest = "http://localhost:5000"
 const urlserver = "https://p2pauditserver.vercel.app";
 
 const Auditor = () => {
+
+  const navigate = useNavigate();
 
   const [username, setUsername] = useState("");
   const [timecommitment, setTimecommitment] = useState("");
@@ -51,6 +54,7 @@ const Auditor = () => {
       setTick(true);
       setSending("Submitted");
       await delay(1500);
+      navigate('/thankyou');
       setTick(false);
       setSending("Submit");
     } catch (error) {
