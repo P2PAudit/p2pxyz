@@ -11,6 +11,7 @@ import Codereview from './components/Forms/Codereview';
 import Walletaudit from './components/Forms/Walletaudit';
 import NotFound from './components/NotFound';
 import Blogs from './components/Blogs';
+import BlogPage from './components/BlogPage';
 import Thankyou from './components/Thankyou';
 import './App.css';
 import {
@@ -26,6 +27,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route index element={<Body />} />
+            <Route path='p2pxyz/' element={<Body />} />
             <Route path='*' element={<NotFound />}/>
             <Route path='thankyou/' element={<Thankyou />}/>
             <Route path='services/' element={<Services />} />
@@ -36,6 +38,7 @@ function App() {
             <Route path='codereviewform/' element={<Codereview />} />
             <Route path='walletauditform/' element={<Walletaudit />} />
             <Route path='blogs/' element={<Blogs />} />
+            <Route path='blogs/:title' element={<BlogPage />} />
           </Routes>
           <Footer />
           <Banner />
