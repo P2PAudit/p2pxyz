@@ -7,7 +7,7 @@ const BlogPage = () => {
 
   const { title } = useParams();
 
-  const [markdown, setMarkdown] = useState("# No Blog Found Wrong URL");
+  const [markdown, setMarkdown] = useState("# Loading....!");
 
   useEffect(() => {
     axios.get(`https://raw.githubusercontent.com/prasantgupta52/sample-blogs/main/${title}/README.md`)
@@ -15,6 +15,7 @@ const BlogPage = () => {
         setMarkdown(response.data);
       })
       .catch(error => {
+        setMarkdown("# No Blog Found Wrong URL");
         console.log(error);
       });
   }, [])
