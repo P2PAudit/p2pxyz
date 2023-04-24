@@ -53,6 +53,7 @@ const Request = () => {
       setSending("Submitted");
       await delay(1500);
       navigate('/thankyou');
+      window.scrollTo({ top: 0, left: 0, behavior: 'smooth' });
       setTick(false);
       setSending("Submit");
     } catch (error) {
