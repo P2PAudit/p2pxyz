@@ -23,7 +23,9 @@ const Navbar = () => {
     <>
       <div className={isOpen ? "visible sidenav" : "hidden"}>
         <div className='cross' onClick={() => { handleMenuClick(); }}>
-          X
+          <div className="crossbar"></div>
+          <div className="crossbar"></div>
+          <div className="crossbar"></div>
         </div>
         <a href='https://calendly.com/p2p-audit/30min' target='_blank' className="sidenavbtn"><div>Book free <br/> Consultation</div></a>
         <div className="sidenavflex">
