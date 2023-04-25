@@ -2163,7 +2163,7 @@ option {
     width: fit-content;
   }
 
-  @keyframes sidenavvis {
+  @keyframes sidenavvisible {
     0% {
       transform: translateX(100%);
       opacity: 0%;
@@ -2173,9 +2173,9 @@ option {
       opacity: 100%;
     }
   }
-
+  
   div.visible {
-    animation-name: sidenavvis;
+    animation-name: sidenavvisible;
     animation-duration: 0.3s;
     animation-timing-function: linear;
   }
