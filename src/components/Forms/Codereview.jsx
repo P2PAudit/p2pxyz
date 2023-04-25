@@ -13,10 +13,9 @@ const Codereview = () => {
   const [discord, setDiscord] = useState("");
   const [email, setEmail] = useState("");
   const [twitter, setTwitter] = useState("");
-  const [social, setSocial] = useState("");
   const [sourcecode, setSourcecode] = useState("");
-  const [github, setGithub] = useState("");
-  const [contribute, setContribute] = useState("");
+  const [budgetpreferred, setBudgetpreferred] = useState("");
+  const [stateofcode, setStateofcode] = useState("");
   const [know, setKnow] = useState("");
 
   const [sending, setSending] = useState("Submit");
@@ -34,10 +33,9 @@ const Codereview = () => {
         Discord: discord,
         Email: email,
         Twitter: twitter,
-        Social: social,
         SourceCode: sourcecode,
-        Github: github,
-        Contribute: contribute,
+        Budgetpreferred: budgetpreferred,
+        Stateofcode: stateofcode,
         Know: know
       })
       // .then(props.refresh)
@@ -46,10 +44,9 @@ const Codereview = () => {
       setDiscord("");
       setEmail("");
       setTwitter("");
-      setSocial("");
       setSourcecode("");
-      setGithub("");
-      setContribute("");
+      setBudgetpreferred("");
+      setStateofcode("");
       setKnow("");
       setTick(true);
       setSending("Submitted");
@@ -72,7 +69,7 @@ const Codereview = () => {
         To get a complete security of your project, please fill out this form and join us in Discord
       </div>
       <form onSubmit={submitform}>
-        <div className="inputbox">
+      <div className="inputbox">
           <div className="forminputtitle">
             Project Name *
           </div>
@@ -80,13 +77,16 @@ const Codereview = () => {
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Website Link (or) any Social Link *🔗
+            Website Link * 🔗
           </div>
           <input type="url" value={website} onChange={(e) => { setWebsite(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Discord Username *
+            Best Way to Connect with you ? *
+          </div>
+          <div className="forminputdesc">
+            Share Your Discord or Telegram Id
           </div>
           <input type="text" value={discord} onChange={(e) => { setDiscord(e.target.value) }} className="form-control" placeholder="Auditor#1234" aria-label="Last name" required />
         </div>
@@ -98,18 +98,12 @@ const Codereview = () => {
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Twitter/LinkedIn profile link*
-          </div>
-          <input type="url" value={twitter} onChange={(e) => { setTwitter(e.target.value) }} className="form-control" aria-label="Last name" required />
-        </div>
-        <div className="inputbox">
-          <div className="forminputtitle">
-            Social Links (Optional)
+            Social profile link *
           </div>
           <div className="forminputdesc">
-            Link your Medium , Substack , etc.
+            Link Your Project's Twitter or Linkedin Profile
           </div>
-          <input type="url" value={social} onChange={(e) => { setSocial(e.target.value) }} className="form-control" aria-label="Last name" />
+          <input type="url" value={twitter} onChange={(e) => { setTwitter(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
@@ -122,18 +116,22 @@ const Codereview = () => {
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            GitHub Profile link *
+            Budget preferred (in $) *
           </div>
-          <div className="forminputdesc">
-            Used in case we need to give you access to certain repositories.
-          </div>
-          <input type="url" value={github} onChange={(e) => { setGithub(e.target.value) }} className="form-control" aria-label="Last name" required />
+          <input type="number" value={budgetpreferred} onChange={(e) => { setBudgetpreferred(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
-            Please describe how you can assist the P2P Audit community and what skills you possess ? *
+            State of Code *
           </div>
-          <input type="text" value={contribute} onChange={(e) => { setContribute(e.target.value) }} className="form-control" aria-label="Last name" required />
+          <select value={stateofcode} onChange={(e) => { setStateofcode(e.target.value) }} required>
+
+            <option value="" disabled selected>Select an option</option>
+            <option value="Contracts are Under development">Contracts are Under development</option>
+            <option value="Contract fully developed and ready for audit">Contract fully developed and ready for audit</option>
+            <option value="Any other audit performed before">Any other audit performed before</option>
+
+          </select>
         </div>
         <div className="inputbox">
           <div className="forminputtitle">

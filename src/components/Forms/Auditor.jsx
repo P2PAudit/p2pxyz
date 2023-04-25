@@ -15,6 +15,7 @@ const Auditor = () => {
   const [twitter, setTwitter] = useState("");
   const [social, setSocial] = useState("");
   const [github, setGithub] = useState("");
+  const [resume, setResume] = useState("");
   const [yourself, setYourself] = useState("");
   const [contribute, setContribute] = useState("");
   const [know, setKnow] = useState("");
@@ -36,6 +37,7 @@ const Auditor = () => {
         Twitter: twitter,
         Social: social,
         Github: github,
+        Resume: resume,
         Yourself: yourself,
         Contribute: contribute,
         Know: know
@@ -48,6 +50,7 @@ const Auditor = () => {
       setTwitter("");
       setSocial("");
       setGithub("");
+      setResume("");
       setYourself("");
       setContribute("");
       setKnow("");
@@ -132,6 +135,15 @@ const Auditor = () => {
             Used in case we need to give you access to certain repositories.
           </div>
           <input type="url" value={github} onChange={(e) => { setGithub(e.target.value) }} className="form-control" aria-label="Last name" required />
+        </div>
+        <div className="inputbox">
+          <div className="forminputtitle">
+            Resume *
+          </div>
+          <div className="forminputdesc">
+            Please Provide Resume Link (You can share a link to any of the following: GitHub/Dropbox/GDrive (or) others.)
+          </div>
+          <input type="url" value={resume} onChange={(e) => { setResume(e.target.value) }} className="form-control" aria-label="Last name" required />
         </div>
         <div className="inputbox">
           <div className="forminputtitle">
