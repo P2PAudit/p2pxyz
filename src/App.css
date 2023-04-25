@@ -129,6 +129,10 @@ a {
   display: block;
 }
 
+.sidenav {
+  display: none;
+}
+
 .navbar {
   display: flex;
   padding-top: 3%;
@@ -2149,6 +2153,7 @@ option {
 
   .sidenav {
     width: 40%;
+    display: block;
     height: 100%;
     right: 0%;
     background: rgb(39, 39, 39);
@@ -2173,7 +2178,7 @@ option {
       opacity: 100%;
     }
   }
-  
+
   div.visible {
     animation-name: sidenavvisible;
     animation-duration: 0.3s;
