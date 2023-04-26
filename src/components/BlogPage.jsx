@@ -2,6 +2,8 @@ import React , { useState , useEffect } from 'react'
 import { useParams } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 import axios from 'axios';
+import hljs from 'highlight.js';
+import 'highlight.js/styles/shades-of-purple.css';
 
 const BlogPage = () => {
 
@@ -9,6 +11,17 @@ const BlogPage = () => {
 
   const [markdown, setMarkdown] = useState("# Loading....!");
 
+  
+  function highlightCode() {
+    document.querySelectorAll('pre code').forEach((block) => {
+      hljs.highlightBlock(block);
+    });
+  }
+
+  useEffect(() => {
+    highlightCode();
+  }, [markdown]);
+  
   useEffect(() => {
     axios.get(`https://raw.githubusercontent.com/prasantgupta52/sample-blogs/main/${title}/README.md`)
       .then(response => {

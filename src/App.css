@@ -2767,3 +2767,15 @@ option {
     margin-left: auto;
   }
 } */
+
+
+
+/*
+
+Dark style from softwaremaniacs.org (c) Ivan Sagalaev <Maniac@SoftwareManiacs.Org>
+
+*/
+
+.hljs {
+  background: rgb(51, 51, 51) !important;
+}
