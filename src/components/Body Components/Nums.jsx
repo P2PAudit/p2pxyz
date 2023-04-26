@@ -21,7 +21,7 @@ const Nums = () => {
       </ScrollTrigger>
       <ScrollTrigger onEnter={() => setCounteron2(true)} onExit={() => setCounteron2(false)} className="cardnum">
         <div className="head">
-          {counteron2 && <CountUp start={0} end={63} duration={1.8} delay={0.4} />}
+          {counteron2 && <CountUp start={0} end={63} duration={1.8} delay={0.4} />}+
         </div>
         <div className="desc">
           Projects<br /> audited
