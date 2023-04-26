@@ -290,7 +290,7 @@ a {
 }
 
 .coin {
-  margin-top: -5%;
+  margin-top: -10%;
   margin-left: auto;
 }
 
@@ -2264,15 +2264,15 @@ option {
   
   @keyframes coinmove {
     0% {
-      transform: translateY(0%)translateX(-5%);
+      transform: translateY(-5%)translateX(-5%);
     }
   
     25% {
-      transform: translateY(5%)translateX(0%);
+      transform: translateY(5%)translateX(5%);
     }
   
     50% {
-      transform: translateY(0%)translateX(0%);
+      transform: translateY(-5%)translateX(5%);
     }
   
     75% {
@@ -2280,7 +2280,7 @@ option {
     }
   
     100% {
-      transform: translateY(0%)translateX(-5%);
+      transform: translateY(-5%)translateX(-5%);
     }
   }
   
