@@ -1,3 +1,7 @@
+.visible {
+  display: block;
+}
+
 .coinmobile , .main2mobile , .main3mobile {
   display: none;
 }
@@ -120,14 +124,6 @@ a {
 @font-face {
   font-family: Brinnan;
   src: url(./fonts/Brinnan-Regular.woff);
-}
-
-.hidden {
-  display: none;
-}
-
-.visible {
-  display: block;
 }
 
 .sidenav {
@@ -546,6 +542,10 @@ a {
 
   color: #D5D5D2;
 
+}
+
+.gasicon , .frticon , .cavdicon {
+  width: 150px;
 }
 
 .gasopt {
@@ -2191,7 +2191,16 @@ option {
   margin: 2%;
 }
 
+.hidden {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
+
+  .visiblemobile {
+    display: block;
+  }
+
   .title {
     font-size: 17px;
   }
@@ -2471,7 +2480,119 @@ option {
   .banner {
     display: none;
   }
- 
+
+  .k1 , .k2 , .k3 {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headk11 {
+    font-size: 27px;
+    line-height: 21px;
+  }
+
+  .headk12 {
+    font-size: 27px;
+    line-height: 21px;
+  }
+
+  .katana {
+    width: 100%;
+    background: #11072C;
+  }
+
+  .headk1 {
+    padding-top: 7%;
+  }
+
+  .prodesc {
+    font-size: 14px;
+    line-height: 6px;
+    margin-bottom: 5%;
+  }
+
+  .katanadescription {
+    font-size: 11px;
+    line-height: 13px;
+    width: 100%;
+  }
+
+  .gasopt {
+    width: 100%;
+    background-image: none;
+    display: flex;
+    background: #1C1C1C;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 150px;
+  }
+
+  .frt {
+    width: 100%;
+    background-image: none;
+    display: flex;
+    background: #1C1C1C;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 150px;
+  }
+
+  .cavd {
+    width: 100%;
+    background-image: none;
+    display: flex;
+    background: #1C1C1C;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 150px;
+  }
+
+  .gasicon , .frticon , .cavdicon {
+    width: 15%;
+  }
+
+  .headkatana {
+    font-size: 15px;
+    line-height: 18px;
+    width: 90%;
+    margin-top: 8%;
+  }
+
+  .desckatana {    
+    font-size: 11px;
+    line-height: 13px;
+    width: 90%;
+    margin-top: 4%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .hiddenmobile {
+    display: none;
+  }
+
 }
 
 @media only screen and (max-width: 900px) and (min-width: 600px) {
