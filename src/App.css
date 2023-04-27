@@ -2597,6 +2597,7 @@ option {
   .pathbtn {
     margin: 7% auto;
     margin-top: -18%;
+    margin-left: 180px;
     width: 200px;
     height: 40px;
     font-size: 15px;
@@ -2614,6 +2615,7 @@ option {
 
   .rsar {
     width: 100%;
+    border-radius: 0%;
   }
 
   .rsarpathmobile {
