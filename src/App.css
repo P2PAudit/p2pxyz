@@ -644,7 +644,6 @@ a {
   bottom: 8338px;
 
   background: linear-gradient(94.78deg, #9F7FF9 48.64%, #B4B4A5 61.27%);
-  ;
   border-radius: 44px;
   padding: 5px;
 
@@ -2313,7 +2312,7 @@ option {
   .applyaudit {
     margin-left: auto;
     margin-right: auto;
-    height: 68px;
+    height: 50px;
   }
 
   .requestaudit {
@@ -2321,6 +2320,7 @@ option {
     margin-right: auto;
     width: 190px;
     margin-top: 8%;
+    height: 40px;
   }
   
   .coin {
@@ -2501,6 +2501,7 @@ option {
   .katana {
     width: 100%;
     background: #11072C;
+    padding-bottom: 1px;
   }
 
   .headk1 {
@@ -2573,12 +2574,39 @@ option {
     margin-top: 4%;
   }
 
+  .katanabtn {
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 19px;
+    margin: 7% auto;
+  }
 
+  .katanabtn:hover {
+    box-shadow: 0px 0px 50px 2px silver;
+  }
 
+  .pathmain {
+    margin-top: -10%;
+  }
 
+  .path {
+    width: 100%;
+  }
 
+  .pathbtn {
+    margin: 7% auto;
+    margin-top: -18%;
+    width: 200px;
+    height: 40px;
+    font-size: 15px;
+    line-height: 19px;
 
+  }
 
+  .pathbtn:hover {
+    box-shadow: 0px 0px 50px 2px silver;
+  }
 
 
 
