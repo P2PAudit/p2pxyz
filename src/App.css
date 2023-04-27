@@ -2656,6 +2656,10 @@ option {
 
 @media only screen and (max-width: 900px) and (min-width: 600px) {
 
+  .visiblemobile {
+    display: block;
+  }
+
   .title {
     font-size: 20px;
   }
@@ -2934,6 +2938,177 @@ option {
   }
 
   .banner {
+    display: none;
+  }
+
+  .k1 , .k2 , .k3 {
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .headk11 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .headk12 {
+    font-size: 45px;
+    line-height: 60px;
+  }
+
+  .katana {
+    width: 100%;
+    background: #11072C;
+    padding-bottom: 1px;
+  }
+
+  .headk1 {
+    padding-top: 7%;
+  }
+
+  .prodesc {
+    font-size: 25px;
+    line-height: 6px;
+    margin-bottom: 5%;
+  }
+
+  .katanadescription {
+    font-size: 20px;
+    line-height: 22px;
+    width: 100%;
+  }
+
+  .gasopt {
+    width: 100%;
+    background-image: none;
+    display: flex;
+    background: #1C1C1C;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 150px;
+  }
+
+  .frt {
+    width: 100%;
+    background-image: none;
+    display: flex;
+    background: #1C1C1C;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 150px;
+  }
+
+  .cavd {
+    width: 100%;
+    background-image: none;
+    display: flex;
+    background: #1C1C1C;
+    border-radius: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    height: 150px;
+  }
+
+  .gasicon , .frticon , .cavdicon {
+    width: 15%;
+  }
+
+  .headkatana {
+    font-size: 25px;
+    line-height: 25px;
+    width: 90%;
+    margin-top: 5%;
+  }
+
+  .desckatana {    
+    font-size: 13px;
+    line-height: 15px;
+    width: 90%;
+    margin-top: 4%;
+  }
+
+  .katanabtn {
+    width: 300px;
+    height: 58px;
+    font-size: larger;
+    line-height: 19px;
+    margin: 7% auto;
+  }
+
+  .katanabtn:hover {
+    box-shadow: 0px 0px 50px 2px silver;
+  }
+
+  .pathmain {
+    margin-top: -10%;
+  }
+
+  .path {
+    width: 100%;
+  }
+
+  .pathbtn {
+    margin: 7% auto;
+    margin-top: -17%;
+    width: 300px;
+    height: 58px;
+    font-size: larger;
+    line-height: 19px;
+
+  }
+
+  .pathbtn:hover {
+    box-shadow: 0px 0px 50px 2px silver;
+  }
+
+  .faetureauditsection {
+    display: none;
+  }
+
+  .rsar {
+    width: 100%;
+    border-radius: 0%;
+  }
+
+  .rsarpathmobile {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .headrsar {    
+    font-size: 35px;
+    line-height: 67px;
+  }
+
+  .headrsarinside {
+    font-size: 25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .hiddenmobile {
     display: none;
   }
 }
