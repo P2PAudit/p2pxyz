@@ -1,5 +1,6 @@
 import React from 'react'
 import RSARicon from '../../images/RSAR.svg'
+import RSARmobileicon from '../../images/rsarmobile.svg'
 
 const RSAR = () => {
   return (
@@ -14,7 +15,8 @@ const RSAR = () => {
         <span className="headrsar">R</span>
         <span className="headrsarinside">eport</span>
       </div>
-      <img src={RSARicon} alt="RSAR" className='path rsarpath'/>
+      <img src={RSARicon} alt="RSAR" className='path rsarpath hiddenmobile'/>
+      <img src={RSARmobileicon} alt="RSAR" className='path rsarpathmobile hidden visiblemobile'/>
     </div>
   )
 }

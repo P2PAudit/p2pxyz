@@ -2608,6 +2608,37 @@ option {
     box-shadow: 0px 0px 50px 2px silver;
   }
 
+  .faetureauditsection {
+    display: none;
+  }
+
+  .rsar {
+    width: 100%;
+  }
+
+  .rsarpathmobile {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .headrsar {    
+    font-size: 28px;
+    line-height: 67px;
+  }
+
+  .headrsarinside {
+    font-size: 15px;
+
+  }
+
+
+
+
+
+
+
+
+
 
 
 

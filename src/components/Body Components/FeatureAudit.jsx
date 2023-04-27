@@ -11,7 +11,7 @@ import juicebox from '../../images/FeaturedAudits/juicebox.svg'
 
 const FeatureAudit = () => {
   return (
-    <div> 
+    <div className='faetureauditsection'> 
       <div className='faheadtitle'>Featured Audits*</div>
       <div className="faudits">
         <div className="faetureaudits">
