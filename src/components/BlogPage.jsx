@@ -1,9 +1,8 @@
-import React , { useState , useEffect } from 'react'
+import React , { useState , useEffect }  from 'react'
 import { useParams } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 import axios from 'axios';
 import hljs from 'highlight.js';
-import 'highlight.js/styles/shades-of-purple.css';
 
 const BlogPage = () => {
 
@@ -21,7 +20,7 @@ const BlogPage = () => {
   useEffect(() => {
     highlightCode();
   }, [markdown]);
-  
+
   useEffect(() => {
     axios.get(`https://raw.githubusercontent.com/prasantgupta52/sample-blogs/main/${title}/README.md`)
       .then(response => {
