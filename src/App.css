@@ -2844,10 +2844,84 @@ option {
     height: 44px;
   }
 
+  .osmain {
+    display: block;
+    background: transparent;
+  }
 
+  .os1 , .os2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
+  .arr {
+    background: transparent;
+  }
 
+  .tla {
+    padding: 5%;
+  }
 
+  .arrbody {
+    flex-direction: row-reverse;
+  }
+
+  .arrbg {
+    margin-left: -25%;
+  }
+
+  .arrdesc {
+    width: 100%;
+    height: 80%;
+    margin-top: 0;
+  }
+
+  .tladesc {
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .arrtitle , .tlatitle , .uttitle {
+    font-size: 21px;
+    line-height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .utdesc , .arrdesc , .tladesc {
+    font-size: 13px;
+    line-height: 17px;
+  }
+
+  .utdesc {
+    margin-top: 0;
+  }
+
+  .arrtitle {
+  }
+
+  .oshead {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .utbtn , .arrbtn , .tlabtn {
+    margin: 0 auto;
+    width: 150px;
+    height: 35px;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+  }
+
+  .arrbtn {
+    margin-top: -5%;
+  }
 
 
 
@@ -3348,7 +3422,7 @@ option {
   }
 
   .whatwedo {
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
 
@@ -3368,6 +3442,231 @@ option {
     margin-bottom: -5%;
     width: 100%;
   }
+
+  .wwd2 {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .opointbox {
+    margin-top: 10%;
+    width: 100%;
+  }
+
+  .opoint {
+    margin-left: 5%;
+  }
+
+  .opointtitle {
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .opointdesc {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .opointbg {
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+  }
+
+  .opointbtn {
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 200px;
+    height: 40.8px;
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .opoint {
+    width: 100%;
+    background: transparent;
+  }
+
+  .opointicon {
+    margin-left: auto;
+    margin-right: 5%;
+  }
+
+  .imagefill {
+    width: 100%;
+  }
+  
+  .point {
+    margin-left: 5%;
+    margin: auto;
+  }
+
+  .tpointbox {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .tpoint {
+    height: auto;
+    margin-bottom: 5%;
+  }
+
+  .tpointtitle {
+    width: 100%;
+    background: transparent;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .tpointicon {
+    margin-left: auto;
+    margin-right: 5%;
+  }
+
+  .tpointdesc {
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 5%;
+  }
+
+  .tpointbtn {
+    width: 200px;
+    height: 40.8px;
+    font-size: 15px;
+    line-height: 19px;
+    margin-top: 15%;
+  }
+
+  .tpointbg {
+    margin-right: 0;
+  }
+
+  .tpointbg > img {
+    width: 183px;
+  }
+
+  .wwd3 {
+    display: block;
+    /* width: 90%; */
+  }
+
+  .thpointcontent {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .thpointtitle {
+    width: 100%;
+    background: transparent;
+    font-size: 30px;
+    line-height: 30px;
+  }
+
+  .thpointdesc {
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 5%;
+  }
+
+  .thpointbg > img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .thpointbtn {
+    font-size: 19px;
+    line-height: 19px;    
+    width: 270px;
+    height: 44px;
+  }
+
+
+  .osmain {
+    display: block;
+    background: transparent;
+  }
+
+  .os1 , .os2 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .arr {
+    background: transparent;
+  }
+
+  .tla {
+    padding: 5%;
+  }
+
+  .arrbody {
+    flex-direction: row-reverse;
+  }
+
+  .arrbg {
+    margin-left: -15%;
+  }
+
+  .arrdesc {
+    width: 100%;
+    height: 80%;
+    margin-top: 0;
+  }
+
+  .tladesc {
+    height: 100%;
+    margin-top: 0;
+  }
+
+  .arrtitle , .tlatitle , .uttitle {
+    font-size: 30px;
+    line-height: 32px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .utdesc , .arrdesc , .tladesc {
+    font-size: 18px;
+    line-height: 19px;
+  }
+
+  .utdesc {
+    margin-top: 0;
+  }
+
+  .arrtitle {
+  }
+
+  .oshead {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 40px;
+    line-height: 32px;
+  }
+
+  .utbtn , .arrbtn , .tlabtn {
+    margin: 0 auto;
+    width: 150px;
+    height: 35px;
+    padding: 1%;
+    display: flex;
+    align-items: center;
+  }
+
+  .arrbtn {
+    margin-top: -5%;
+  }
+
+
+
+
+
+
 
 
 
