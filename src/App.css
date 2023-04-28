@@ -3017,7 +3017,7 @@ option {
   .openorg {
     font-size: 8px;
     line-height: 15px;
-    margin: 0 auto;
+    /* margin-left: auto; */
   }
 
   .medialink {
