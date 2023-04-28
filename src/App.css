@@ -2684,7 +2684,7 @@ option {
   }
 
   .whatwedo {
-    width: 80%;
+    width: 90%;
     margin: auto;
   }
 
@@ -2707,6 +2707,9 @@ option {
 
   .wwd2 {
     display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .opointbox {
@@ -2763,6 +2766,7 @@ option {
 
   .tpointbox {
     width: 100%;
+    margin-left: 0;
   }
 
   .tpoint {
@@ -2779,6 +2783,7 @@ option {
 
   .tpointicon {
     margin-left: auto;
+    margin-right: 5%;
   }
 
   .tpointdesc {
@@ -2796,7 +2801,7 @@ option {
   }
 
   .tpointbg {
-    margin-right: 5%;
+    margin-right: 0;
   }
 
   .tpointbg > img {
