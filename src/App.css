@@ -2679,7 +2679,31 @@ option {
     font-size: 15px;
   }
 
+  .wwd1 {
+    display: block;
+  }
 
+  .whatwedo {
+    width: 80%;
+    margin: auto;
+  }
+
+  .wwdtitle {    
+    font-size: 36px;
+    line-height: 50px;
+    justify-content: center;
+  }
+
+  .wwddesc {    
+    font-size: 10px;
+    line-height: 15px;
+  }
+
+  .sheildicon {
+    margin-top: -5%;
+    margin-bottom: -5%;
+    width: 100%;
+  }
 
 
 
@@ -3171,10 +3195,31 @@ option {
     cursor: pointer;
   }
 
+  .wwd1 {
+    display: block;
+  }
 
+  .whatwedo {
+    width: 80%;
+    margin: auto;
+  }
 
+  .wwdtitle {    
+    font-size: 60px;
+    line-height: 60px;
+    justify-content: center;
+  }
 
+  .wwddesc {    
+    font-size: 15px;
+    line-height: 20px;
+  }
 
+  .sheildicon {
+    margin-top: -5%;
+    margin-bottom: -5%;
+    width: 100%;
+  }
 
 
 
