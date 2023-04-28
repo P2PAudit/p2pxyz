@@ -2673,10 +2673,12 @@ option {
 
   form input {
     height: 30px;
+    font-size: 12px;
   }
-
+  
   .form select {
     height: 30px;
+    font-size: 12px;
   }
 
   .form {
