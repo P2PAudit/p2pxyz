@@ -3250,6 +3250,7 @@ option {
   }
 
   .sidenav {
+    overflow: scroll;
     width: 40%;
     display: block;
     height: 100%;
@@ -3313,6 +3314,7 @@ option {
   .sidenavflex {
     display: flex;
     flex-direction: column;
+    margin-bottom: 5%;
   }
 
   .sidenavflex>div {
