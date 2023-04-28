@@ -11,6 +11,7 @@ const Navbar = () => {
     navigate(path);
     await delay(200);
     document.getElementById(id).scrollIntoView();
+    setIsOpen(!isOpen);
   };
 
   const [isOpen, setIsOpen] = useState(false);
