@@ -85,6 +85,9 @@ const WWD = () => {
           <div className="thpointtitle">
             3. Wallet Security Audit
           </div>
+          <div className="thpointbg hidden visiblemobile">
+            <img src={thbg} alt="thbg" />
+          </div>
           <div className="thpointdesc">
             Wallet extension and app penetration testing audit involve a comprehensive analysis of the wallet's security, including its encryption methods, authentication processes, and communication protocols.
           </div>
@@ -92,7 +95,7 @@ const WWD = () => {
             Request Wallet audit
           </Link>
         </div>
-        <div className="thpointbg">
+        <div className="thpointbg hiddenmobile">
           <img src={thbg} alt="thbg" />
         </div>
       </div>

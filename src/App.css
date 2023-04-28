@@ -2726,7 +2726,6 @@ option {
   .opointdesc {
     font-size: 11px;
     line-height: 10px;
-
   }
 
   .opointbg {
@@ -2761,6 +2760,96 @@ option {
     margin-left: 5%;
     margin: auto;
   }
+
+  .tpointbox {
+    width: 100%;
+  }
+
+  .tpoint {
+    height: auto;
+    margin-bottom: 5%;
+  }
+
+  .tpointtitle {
+    width: 100%;
+    background: transparent;
+    font-size: 21px;
+    line-height: 21px;
+  }
+
+  .tpointicon {
+    margin-left: auto;
+  }
+
+  .tpointdesc {
+    font-size: 11px;
+    line-height: 10px;
+    margin-top: 5%;
+  }
+
+  .tpointbtn {
+    width: 144.85px;
+    height: 40.8px;
+    font-size: 11px;
+    line-height: 19px;
+    margin-top: 15%;
+  }
+
+  .tpointbg {
+    margin-right: 5%;
+  }
+
+  .tpointbg > img {
+    width: 183px;
+  }
+
+  .wwd3 {
+    display: block;
+    /* width: 90%; */
+  }
+
+  .thpointcontent {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .thpointtitle {
+    width: 100%;
+    background: transparent;
+    font-size: 21px;
+    line-height: 21px;
+  }
+
+  .thpointdesc {
+    font-size: 11px;
+    line-height: 10px;
+    margin-top: 5%;
+  }
+
+  .thpointbg > img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .thpointbtn {
+    font-size: 19px;
+    line-height: 19px;    
+    width: 270px;
+    height: 44px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
