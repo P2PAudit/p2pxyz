@@ -1779,6 +1779,10 @@ a {
   color: #9F7FF9;
 }
 
+.footbtn > div , .footbtn2 > div , .footbtn3 > div {
+  margin: auto;
+}
+
 .footbtn {
   padding-bottom: 7%;
 }
@@ -2978,6 +2982,70 @@ option {
     font-size: xx-small;
   }
 
+  .footertitle {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .footerdesc {
+    font-size: 9px;
+    line-height: 14px;
+  }
+
+  .footbtn1 {
+    width: 158.48px;
+    height: 37px;
+    font-size: 9px;
+    line-height: 19px;
+    padding: 0 2%;
+  }
+
+  .footbtn2 , .footbtn3 {
+    width: 153.64px;
+    height: 37px;
+    font-size: 9px;
+    line-height: 9px;
+    padding: 0 2%;
+  }
+
+  .footbtn1 > div , .footbtn2 > div , .footbtn3 > div {
+    margin: auto;
+  }
+
+  .footicon {
+    width: fit-content;
+    padding: 0;
+  }
+
+  .openorg {
+    font-size: 8.8px;
+    line-height: 24px;
+  }
+
+  .medialink {
+    font-size: 8px;
+    line-height: 24px;
+  }
+
+  .rights {
+    font-size: 7px;
+    line-height: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
   
 
@@ -3768,6 +3836,56 @@ option {
   .faqans {
     width: 100%;
     font-size: small;
+  }
+
+  .footertitle {
+    font-size: 30px;
+    line-height: 24px;
+  }
+
+  .footerdesc {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .footbtn1 {
+    width: 200px;
+    height: 40px;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 0 2%;
+  }
+
+  .footbtn2 , .footbtn3 {
+    width: 200px;
+    height: 40px;
+    font-size: 13px;
+    line-height: 13px;
+    padding: 0 2%;
+  }
+
+  .footbtn1 > div , .footbtn2 > div , .footbtn3 > div {
+    margin: auto;
+  }
+
+  .footicon {
+    width: fit-content;
+    padding: 0;
+  }
+
+  .openorg {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .medialink {
+    font-size: 14px;
+    line-height: 24px;
+  }
+
+  .rights {
+    font-size: 14px;
+    line-height: 20px;
   }
 
 
