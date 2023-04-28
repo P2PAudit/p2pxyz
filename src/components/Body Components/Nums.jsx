@@ -15,6 +15,7 @@ const Nums = () => {
         <div className="head">
           ${counteron1 && <CountUp start={0} end={10} duration={1.8} delay={0.4} />}Bn+
         </div>
+        <div className="bag1 hidden visiblemobile"></div>
         <div className="desc">
           Blockchain<br /> Integrations
         </div>
@@ -39,6 +40,7 @@ const Nums = () => {
         <div className="head">
           {counteron4 && <CountUp start={0} end={145} duration={1.8} delay={0.4} />}+
         </div>
+        <div className="bag2 hidden visiblemobile"></div>
         <div className="desc">
           Critical/high/<br />medium Findings
         </div>

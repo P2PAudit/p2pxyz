@@ -3030,6 +3030,14 @@ option {
     line-height: 20px;
   }
 
+  .bag1 {
+    box-shadow: -233px 0px 120px 49px rgba(165, 149, 214, 0.62);
+  }
+
+  .bag2 {
+    box-shadow: +233px 0px 120px 49px rgba(147, 147, 147, 0.58);
+  }
+
 
 
 
@@ -3883,6 +3891,13 @@ option {
     line-height: 20px;
   }
 
+  .bag1 {
+    box-shadow: -300px 0px 120px 49px rgba(165, 149, 214, 0.62);
+  }
+
+  .bag2 {
+    box-shadow: +300px 0px 120px 49px rgba(147, 147, 147, 0.58);
+  }
 
 
 
