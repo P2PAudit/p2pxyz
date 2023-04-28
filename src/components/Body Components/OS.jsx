@@ -22,11 +22,14 @@ const OS = () => {
               <div className="utbgicon">
                 <img src={ut} alt="utbgicon" />
               </div>
-              <a className="utbtn" href='https://discord.gg/4zTqbXMJZ6' target='_blank'>
+              <a className="utbtn hiddenmobile" href='https://discord.gg/4zTqbXMJZ6' target='_blank'>
                 Request
               </a>
             </div>
           </div>
+          <a className="utbtn hidden visiblemobile" href='https://discord.gg/4zTqbXMJZ6' target='_blank'>
+            Request
+          </a>
         </div>
       </div>
       <div className="os2">
@@ -40,7 +43,7 @@ const OS = () => {
                 <div className="arrdesc">
                   Our Audit Readiness review, conducted by experts, will assist project owners in comprehensively preparing for an audit and getting the most out of it.
                 </div>
-                <a className="arrbtn" href='https://discord.gg/NW8ZdCRUFS' target='_blank'>
+                <a className="arrbtn hiddenmobile" href='https://discord.gg/NW8ZdCRUFS' target='_blank'>
                     Request Review
                 </a>
               </div>
@@ -50,6 +53,9 @@ const OS = () => {
                 </div>
               </div>
             </div>
+            <a className="arrbtn hidden visiblemobile" href='https://discord.gg/NW8ZdCRUFS' target='_blank'>
+                Request Review
+            </a>
           </div>
           <div className="tla">
             <div className="tlatitle">
@@ -60,7 +66,7 @@ const OS = () => {
                 <div className="tladesc">
                   We have extensive connections within the Web3 space, enabling us to assist you in getting your cryptocurrency listed on various crypto exchanges.
                 </div>
-                <a className="tlabtn" href='https://discord.gg/hG5sewXVxu' target='_blank'>
+                <a className="tlabtn hiddenmobile" href='https://discord.gg/hG5sewXVxu' target='_blank'>
                   Access Feature
                 </a>
               </div>
@@ -70,6 +76,9 @@ const OS = () => {
                 </div>
               </div>
             </div>
+            <a className="tlabtn hidden visiblemobile" href='https://discord.gg/hG5sewXVxu' target='_blank'>
+              Access Feature
+            </a>
           </div>
         </div>
       </div>

@@ -4,43 +4,48 @@ import ScrollTrigger from 'react-scroll-trigger';
 
 const Nums = () => {
 
-  const [counteron, setCounteron] = useState(false);
+  const [counteron1, setCounteron1] = useState(false);
+  const [counteron2, setCounteron2] = useState(false);
+  const [counteron3, setCounteron3] = useState(false);
+  const [counteron4, setCounteron4] = useState(false);
 
   return (
-    <ScrollTrigger onEnter={() => setCounteron(true)} onExit={() => setCounteron(false)} className='nums'>
-      <div className="cardnum">
+    <div className="nums">
+      <ScrollTrigger onEnter={() => setCounteron1(true)} onExit={() => setCounteron1(false)} className="cardnum">
         <div className="head">
-          ${counteron && <CountUp start={0} end={10} duration={1.8} delay={0.4}/>}Bn+
+          ${counteron1 && <CountUp start={0} end={10} duration={1.8} delay={0.4} />}Bn+
         </div>
+        <div className="bag1 hidden visiblemobile"></div>
         <div className="desc">
-          Blockchain<br/> Integrations
+          Blockchain<br /> Integrations
         </div>
-      </div>
-      <div className="cardnum">
+      </ScrollTrigger>
+      <ScrollTrigger onEnter={() => setCounteron2(true)} onExit={() => setCounteron2(false)} className="cardnum">
         <div className="head">
-          {counteron && <CountUp start={0} end={63} duration={1.8} delay={0.4}/>}
+          {counteron2 && <CountUp start={0} end={63} duration={1.8} delay={0.4} />}+
         </div>
         <div className="desc">
           Projects<br /> audited
         </div>
-      </div>
-      <div className="cardnum">
+      </ScrollTrigger>
+      <ScrollTrigger onEnter={() => setCounteron3(true)} onExit={() => setCounteron3(false)} className="cardnum">
         <div className="head">
-          ${counteron && <CountUp start={0} end={8} duration={1.8} delay={0.4}/>}Mn+
+          ${counteron3 && <CountUp start={0} end={8} duration={1.8} delay={0.4} />}Mn+
         </div>
         <div className="desc">
-          Amount<br/> protected
+          Amount<br /> protected
         </div>
-      </div>
-      <div className="cardnum">
+      </ScrollTrigger>
+      <ScrollTrigger onEnter={() => setCounteron4(true)} onExit={() => setCounteron4(false)} className="cardnum">
         <div className="head">
-        {counteron && <CountUp start={0} end={145} duration={1.8} delay={0.4}/>}+
+          {counteron4 && <CountUp start={0} end={145} duration={1.8} delay={0.4} />}+
         </div>
+        <div className="bag2 hidden visiblemobile"></div>
         <div className="desc">
           Critical/high/<br />medium Findings
         </div>
-      </div>
-    </ScrollTrigger>
+      </ScrollTrigger>
+    </div>
   )
 }
 

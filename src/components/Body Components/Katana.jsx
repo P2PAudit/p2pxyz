@@ -17,14 +17,14 @@ const Katana = () => {
               <span className="headk11">P2P </span><span className="headk12">&nbsp;AuditKatana</span>
             </div>
             <div className='prodesc'>
-              Product<br /> Description:
+              Product<br className='hiddenmobile'/> Description:
             </div>
           </div>
-          <div className="gasopt">
+          <div className="gasopt hiddenmobile">
             <img src={gasopt} alt="gas optimization" className='gasicon' />
             <div>
               <div className="headkatana"><span className="blue"> Gas </span>Optimisation:</div>
-              <div className="desckatana">Our BOT service can save you thousands of dollars in gas fees by making your Smart Contract more gas efficient.</div>
+              <div className="desckatana desckatanafrt">Our BOT service can save you thousands of dollars in gas fees by making your Smart Contract more gas efficient.</div>
             </div>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Katana = () => {
             Automatic code analysis: The bot could automatically scan the smart contract's code for known vulnerabilities, such as reentrancy attacks or integer overflows.<br /><br />
             Customizable rule sets: It can allow users to specify custom rule sets or best practices to check for compliance with industry standards.
           </div>
-          <div className="frt">
+          <div className="frt hiddenmobile" >
             <img src={frtlogo} alt="fast response time" className='frticon' />
             <div>
               <div className="headkatana">Fast Response <span className="blue"> Time:</span></div>
@@ -44,7 +44,21 @@ const Katana = () => {
           </div>
         </div>
         <div className="k3">
-          <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/katanaform" className="katanabtn"><div className="requestauditbtn">AUDIT $199</div></Link>
+          <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/katanaform" className="katanabtn hiddenmobile"><div className="requestauditbtn">AUDIT $199</div></Link>
+          <div className="gasopt hidden visiblemobile">
+            <img src={gasopt} alt="gas optimization" className='gasicon' />
+            <div>
+              <div className="headkatana"><span className="blue"> Gas </span>Optimisation:</div>
+              <div className="desckatana">Our BOT service can save you thousands of dollars in gas fees by making your Smart Contract more gas efficient.</div>
+            </div>
+          </div>
+          <div className="frt hidden visiblemobile" >
+            <img src={frtlogo} alt="fast response time" className='frticon' />
+            <div>
+              <div className="headkatana">Fast Response <span className="blue"> Time:</span></div>
+              <div className="desckatana desckatanafrt"> Our lightning-fast response time ensures that your report will be delivered within few hours, providing you with peace of mind and allowing you to take advantage of the latest opportunities quickly and effortlessly.</div>
+            </div>
+          </div>
           <div className="cavd">
             <img src={cavdicon} alt="Common Attack Vectors Detection" className='cavdicon' />
             <div>
@@ -52,6 +66,7 @@ const Katana = () => {
               <div className="desckatana desckatanafrt"> With over 100+ security checkers, we provide comprehensive coverage for conventional security vulnerabilities and tokenomic loopholes.</div>
             </div>
           </div>
+          <Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/katanaform" className="katanabtn hidden visiblemobile"><div className="requestauditbtn">AUDIT $199</div></Link>
         </div>
       </div>
     </>

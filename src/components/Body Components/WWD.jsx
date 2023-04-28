@@ -16,11 +16,14 @@ const WWD = () => {
             What we do
           </div>
           <div className="wwddesc">
-          P2PAudit is a company in the field of Web3 security that is committed to providing excellent protection and education to its partners and their projects.<br /><br />
+          P2PAudit is a company in the field of Web3 security that is committed to providing excellent protection and education to its partners and their projects.
+          </div>
+          <img src={sheild} alt="sheild" className='sheildicon hidden visiblemobile'/>
+          <div className="wwddesc">
           The primary objective of the company is to establish a secure, dependable, and transparent ecosystem for all individuals involved in Web3 and DeFi.
           </div>
         </div>
-        <div className="sheild">
+        <div className="sheild hiddenmobile">
           <img src={sheild} alt="sheild" className='sheildicon'/>
         </div>
       </div>
@@ -82,6 +85,9 @@ const WWD = () => {
           <div className="thpointtitle">
             3. Wallet Security Audit
           </div>
+          <div className="thpointbg hidden visiblemobile">
+            <img src={thbg} alt="thbg" />
+          </div>
           <div className="thpointdesc">
             Wallet extension and app penetration testing audit involve a comprehensive analysis of the wallet's security, including its encryption methods, authentication processes, and communication protocols.
           </div>
@@ -89,7 +95,7 @@ const WWD = () => {
             Request Wallet audit
           </Link>
         </div>
-        <div className="thpointbg">
+        <div className="thpointbg hiddenmobile">
           <img src={thbg} alt="thbg" />
         </div>
       </div>
