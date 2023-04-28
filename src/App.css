@@ -2705,8 +2705,62 @@ option {
     width: 100%;
   }
 
+  .wwd2 {
+    display: block;
+  }
 
+  .opointbox {
+    margin-top: 10%;
+    width: 100%;
+  }
 
+  .opoint {
+    margin-left: 5%;
+  }
+
+  .opointtitle {
+    font-size: 21px;
+    line-height: 21px;
+  }
+
+  .opointdesc {
+    font-size: 11px;
+    line-height: 10px;
+
+  }
+
+  .opointbg {
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+  }
+
+  .opointbtn {
+    margin-top: 10%;
+    margin-right: 5%;
+    width: 144.85px;
+    height: 40.8px;
+    font-size: 11px;
+    line-height: 19px;
+  }
+
+  .opoint {
+    width: 100%;
+    background: transparent;
+  }
+
+  .opointicon {
+    margin-left: auto;
+    margin-right: 5%;
+  }
+
+  .imagefill {
+    width: 100%;
+  }
+  
+  .point {
+    margin-left: 5%;
+    margin: auto;
+  }
 
 
 
