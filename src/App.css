@@ -2923,10 +2923,55 @@ option {
     margin-top: -5%;
   }
 
+  .kick1 {    
+    font-size: 16px;
+    line-height: 20px;
+    padding-top: 0;
+  }
 
+  .kick2 {
+    font-size: 10px;
+    line-height: 15px;
+  }
 
+  .kickbtn {
+    width: 150px;
+    height: 25px;
+    font-size: 10px;
+    line-height: 11px;
+    margin-top: 2%;
+  }
 
+  .kickoffcontent {
+    padding: 3%;
+  }
 
+  .faqsection {
+    width: 100%;
+  }
+
+  .faqs {
+    border-radius: 0%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+  }
+
+  .faqdiv {
+    width: 100%;
+  }
+
+  .contentaccordian {
+    margin-left: 0%;
+  }
+
+  ul {
+    padding-inline-start: 0%;
+  }
+
+  
 
 
 
@@ -3662,6 +3707,36 @@ option {
     margin-top: -5%;
   }
 
+  .kick1 {    
+    font-size: 25px;
+    line-height: 25px;
+    padding-top: 0;
+  }
+
+  .kick2 {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .kickbtn {
+    width: 200px;
+    height: 35px;
+    font-size: 20px;
+    line-height: 20px;
+    margin-top: 2%;
+  }
+
+  .kickoffcontent {
+    padding: 3%;
+  }
+
+  .faqsection {
+    width: 100%;
+  }
+
+  .faqs {
+    border-radius: 0%;
+  }
 
 
 
