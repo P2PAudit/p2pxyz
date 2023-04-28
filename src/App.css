@@ -2016,6 +2016,11 @@ form input {
 }
 
 .formsubmit {
+  cursor: pointer;
+}
+
+
+.formsubmit {
   width: 200px;
   height: 58px;
   border-radius: 37px;
@@ -2655,7 +2660,7 @@ option {
     height: 30px;
   }
 
-  form select {    
+  .form select {    
     height: 30px;
   }
 
@@ -2664,7 +2669,15 @@ option {
     width: 80%;
   }
 
+  .formsubmit {
+    cursor: pointer;
+    width: 150px;
+    height: 40px;
+  }
 
+  .formsubmittext {
+    font-size: 15px;
+  }
 
 
 
@@ -3121,6 +3134,42 @@ option {
     font-size: 25px;
   }
 
+  .formhead {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .formdesc {
+    font-size: 13px;
+    line-height: 15px;
+  }
+
+  .forminputtitle {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .forminputdesc {
+    font-size: 13px;
+    line-height: 20px;
+  }
+
+  form input {    
+    height: 35px;
+  }
+
+  .form select {    
+    height: 35px;
+  }
+
+  .form {
+    margin: 0 auto;
+    width: 75%;
+  }
+
+  .formsubmit {
+    cursor: pointer;
+  }
 
 
 
