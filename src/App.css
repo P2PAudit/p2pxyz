@@ -4020,3 +4020,9 @@ code:not([class]) {
   line-height: inherit;
   padding: 0.1em 0.3em;
 }
+
+::selection {
+  background-color: #9f7ff9bf!important;
+  color: black!important;
+}
+
