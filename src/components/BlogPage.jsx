@@ -2,7 +2,8 @@ import React , { useState , useEffect }  from 'react'
 import { useParams } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 import axios from 'axios';
-import hljs from 'highlight.js';
+var hljs = require('highlight.js');
+var hljsDefineSolidity = require('highlightjs-solidity');
 
 const BlogPage = () => {
 
@@ -13,6 +14,7 @@ const BlogPage = () => {
   
   function highlightCode() {
     document.querySelectorAll('pre code').forEach((block) => {
+      hljsDefineSolidity(hljs);
       hljs.highlightBlock(block);
     });
   }
