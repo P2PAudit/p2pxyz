@@ -11,6 +11,7 @@ import Codereview from './components/Forms/Codereview';
 import Walletaudit from './components/Forms/Walletaudit';
 import NotFound from './components/NotFound';
 import Thankyou from './components/Thankyou';
+import Reports from './components/Reports/Reports';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -34,6 +35,7 @@ function App() {
             <Route path='katanaform/' element={<Katanaform />} />
             <Route path='codereviewform/' element={<Codereview />} />
             <Route path='walletauditform/' element={<Walletaudit />} />
+            <Route path='reports/' element={<Reports />} />
           </Routes>
           <Footer />
           <Banner />
