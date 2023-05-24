@@ -2675,7 +2675,7 @@ option {
     height: 30px;
     font-size: 12px;
   }
-  
+
   .form select {
     height: 30px;
     font-size: 12px;
@@ -3060,7 +3060,7 @@ option {
   .bag2 {
     box-shadow: +233px 0px 120px 49px rgba(147, 147, 147, 0.58);
   }
-  
+
   .hiddenmobile {
     display: none;
   }
@@ -4025,3 +4025,4 @@ code:not([class]) {
   background-color: #9f7ff9bf!important;
   color: black!important;
 }
+

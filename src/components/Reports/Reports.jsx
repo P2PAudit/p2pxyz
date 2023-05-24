@@ -21,9 +21,9 @@ const Reports = () => {
 
 
   return (
-    <div className='reports'>
-      <div className="reporthead">Our Reports</div>
-      <div className="reportssection">
+    <div className='blogs'>
+      <div className="bloghead">Our Reports</div>
+      <div className="blogsssection">
         {reportlineup.length === 0 ? (
           <div>Loading.....</div>
         ) :
