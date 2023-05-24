@@ -2225,6 +2225,10 @@ option {
   margin-bottom: 2%;
 }
 
+.reportdesc {
+  font-size: 20px;
+}
+
 @media only screen and (max-width: 600px) {
 
   .visiblemobile {
@@ -3098,6 +3102,9 @@ option {
     margin-bottom: 2%;
   }
 
+  .reportdesc {
+    font-size: 15px;
+  }
 }
 
 @media only screen and (max-width: 900px) and (min-width: 600px) {
@@ -3965,6 +3972,10 @@ option {
     line-height: 24px;
     margin-top: 2%;
     margin-bottom: 2%;
+  }
+
+  .reportdesc {
+    font-size: 18px;
   }
 }
 
