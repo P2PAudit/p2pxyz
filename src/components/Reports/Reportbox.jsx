@@ -6,20 +6,16 @@ const ReportBox = (props) => {
 
   const [title, setTitle] = useState("");
   const [date, setDate] = useState("");
+  const [url, setUrl] = useState("");
   const [icon, setIcon] = useState("");
 
   useEffect(() => {
     axios.get(`${props.report.reportLink}/assets/details.json`)
       .then(response => {
+        console.log(response.data);
         setTitle(response.data.name);
         setDate(response.data.date);
-      })
-      .catch(error => {
-        console.log(error);
-      });
-    axios.get(`${props.report.reportLink}/assets/icon.svg`)
-      .then(response => {
-        setIcon(response.data);
+        setUrl(response.data.url);
       })
       .catch(error => {
         console.log(error);
@@ -27,7 +23,7 @@ const ReportBox = (props) => {
   }, [])
 
   return (
-    <Link to={`reports/${title}`} className='reportsbox'>  
+    <Link to={`/reports/${url}`} className='reportsbox'>  
       <img src={`${props.report.reportLink}/assets/icon.svg`} alt="report icon" className='reportsicon'/>
       <div className="reportstitle">{title}</div>
       <div className="reportsdesc">{date}</div>
