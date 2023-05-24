@@ -13,6 +13,8 @@ import NotFound from './components/NotFound';
 import Blogs from './components/Blogs';
 import BlogPage from './components/BlogPage';
 import Thankyou from './components/Thankyou';
+import Reports from './components/Reports/Reports';
+import Reportspage from './components/Reports/Reportspage';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -37,6 +39,8 @@ function App() {
             <Route path='katanaform/' element={<Katanaform />} />
             <Route path='codereviewform/' element={<Codereview />} />
             <Route path='walletauditform/' element={<Walletaudit />} />
+            <Route path='reports/' element={<Reports />} />
+            <Route path='reports/:title' element={<Reportspage />} />
             <Route path='blogs/' element={<Blogs />} />
             <Route path='blogs/:title' element={<BlogPage />} />
           </Routes>

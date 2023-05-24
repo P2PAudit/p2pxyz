@@ -33,7 +33,7 @@ const Navbar = () => {
           <div><Link to="https://p2paudit.gitbook.io/" target='_blank'>About Us</Link></div>
           <div><Link to="https://p2paudit.medium.com/" target='_blank'>Blog</Link></div>
           <div onClick={() => handleNavLinkClick("/services", "services")}><Link>Services</Link></div>
-          <div><Link to="https://github.com/P2PAudit/portfolio" target='_blank'>Portfolio</Link></div>
+          <div><Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/reports">Reports</Link></div>
           <div><Link to="https://github.com/P2PAudit/P2PSchool" target='_blank'>Education</Link></div>
         </div>
       </div>
@@ -50,7 +50,7 @@ const Navbar = () => {
           <div><Link to="https://p2paudit.gitbook.io/" target='_blank'>About Us</Link></div>
           <div><Link to="https://p2paudit.medium.com/" target='_blank'>Blog</Link></div>
           <div onClick={() => handleNavLinkClick("/services", "services")}><Link>Services</Link></div>
-          <div><Link to="https://github.com/P2PAudit/portfolio" target='_blank'>Portfolio</Link></div>
+          <div><Link onClick={() => { window.scrollTo({ top: 0, left: 0, behavior: 'smooth' }); }} to="/reports">Reports</Link></div>
           <div><Link to="https://github.com/P2PAudit/P2PSchool" target='_blank'>Education</Link></div>
         </div>
       </div>
