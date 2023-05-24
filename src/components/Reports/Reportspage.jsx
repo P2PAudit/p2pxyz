@@ -7,13 +7,10 @@ var hljsDefineSolidity = require('highlightjs-solidity');
 
 const Reportspage = () => {
 
-  const { url } = useParams();
+  const { title } = useParams();
+  const urlkatana = "https://raw.githubusercontent.com/P2PAudit/p2p-Audit-Katana/main"
 
-  const [gas, setGas] = useState("");
-  const [info, setInfo] = useState("");
-  const [low, setLow] = useState("");
-  const [medium, setMedium] = useState("");
-  const [high, setHigh] = useState("");
+  const [report ,setReport] = useState("");
 
   function highlightCode() {
     document.querySelectorAll('pre code').forEach((block) => {
@@ -24,47 +21,15 @@ const Reportspage = () => {
 
   useEffect(() => {
     highlightCode();
-  }, [gas,info,low,medium]);
+  }, [report]);
 
   useEffect(() => {
-    axios.get(`/README.md`)
+    axios.get(`${urlkatana}/${title}/Report.md`)
       .then(response => {
-        setGas(response.data);
+        setReport(response.data);
       })
       .catch(error => {
-        setGas("");
-        console.log(error);
-      });
-      axios.get(`/README.md`)
-      .then(response => {
-        setInfo(response.data);
-      })
-      .catch(error => {
-        setInfo("");
-        console.log(error);
-      });
-      axios.get(`/README.md`)
-      .then(response => {
-        setLow(response.data);
-      })
-      .catch(error => {
-        setLow("");
-        console.log(error);
-      });
-      axios.get(`/README.md`)
-      .then(response => {
-        setMedium(response.data);
-      })
-      .catch(error => {
-        setMedium("");
-        console.log(error);
-      });
-      axios.get(`/README.md`)
-      .then(response => {
-        setHigh(response.data);
-      })
-      .catch(error => {
-        setHigh("");
+        setReport("");
         console.log(error);
       });
   }, [])
@@ -72,11 +37,7 @@ const Reportspage = () => {
   return (
     <div className='blogbox'>
       <div className="blogdesc">
-        <Markdown>{gas}</Markdown>
-        <Markdown>{info}</Markdown>
-        <Markdown>{low}</Markdown>
-        <Markdown>{medium}</Markdown>
-        <Markdown>{high}</Markdown>
+        <Markdown>{report}</Markdown>
       </div>
     </div>
   )
