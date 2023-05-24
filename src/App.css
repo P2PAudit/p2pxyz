@@ -4049,13 +4049,45 @@ option {
   border-collapse: collapse;
 }
 
+.blogdesc a {
+  color: #8ab4f8;
+}
+
+.blogdesc a:visited {
+  color: #c58af9;
+}
+
+.blogdesc a:hover {
+  text-decoration: underline;
+}
+
+.blogdesc table {
+  background: #1d1b26;
+  color: #adabb2;
+  display: block;
+  font-size: 1rem;
+  line-height: 130%;
+  margin-bottom: 1.5rem;
+  max-width: fit-content;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
 .reportdesc th,
 .reportdesc td {
   border: 1px solid rgba(58, 58, 58, 0.629);
   padding: 8px;
 }
+.blogdesc th,
+.blogdesc td {
+  border: 1px solid rgba(58, 58, 58, 0.629);
+  padding: 8px;
+}
 
 .reportdesc thead tr {
+  background: #23242b;
+}
+.blogdesc thead tr {
   background: #23242b;
 }
 

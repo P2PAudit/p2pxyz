@@ -10,6 +10,8 @@ import Services from './components/Services';
 import Codereview from './components/Forms/Codereview';
 import Walletaudit from './components/Forms/Walletaudit';
 import NotFound from './components/NotFound';
+import Blogs from './components/Blogs';
+import BlogPage from './components/BlogPage';
 import Thankyou from './components/Thankyou';
 import Reports from './components/Reports/Reports';
 import Reportspage from './components/Reports/Reportspage';
@@ -27,6 +29,7 @@ function App() {
           <Navbar />
           <Routes>
             <Route index element={<Body />} />
+            <Route path='p2pxyz/' element={<Body />} />
             <Route path='*' element={<NotFound />}/>
             <Route path='thankyou/' element={<Thankyou />}/>
             <Route path='services/' element={<Services />} />
@@ -38,6 +41,8 @@ function App() {
             <Route path='walletauditform/' element={<Walletaudit />} />
             <Route path='reports/' element={<Reports />} />
             <Route path='reports/:title' element={<Reportspage />} />
+            <Route path='blogs/' element={<Blogs />} />
+            <Route path='blogs/:title' element={<BlogPage />} />
           </Routes>
           <Footer />
           <Banner />
