@@ -2208,11 +2208,19 @@ option {
   display: none;
 }
 
+.reportdesc {
+  padding-top: 0%;
+  width: 65%;
+  margin: 0 auto;
+  font-size: 20px;
+  line-height: 35px;
+}
+
 .reportheadingtitle {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 25px;
+  line-height: 35px;
   margin: 1.5% 0;
 }
 
@@ -2220,14 +2228,11 @@ option {
   font-style: normal;
   font-weight: 700;
   font-size: 20px;
-  line-height: 24px;
+  line-height: 30px;
   margin-top: 2%;
   margin-bottom: 2%;
 }
 
-.reportdesc {
-  font-size: 20px;
-}
 
 @media only screen and (max-width: 600px) {
 
@@ -3103,8 +3108,12 @@ option {
   }
 
   .reportdesc {
+    width: 90%;
+    margin: 0 auto;
     font-size: 15px;
+    line-height: 25px;
   }
+
 }
 
 @media only screen and (max-width: 900px) and (min-width: 600px) {
@@ -3975,7 +3984,10 @@ option {
   }
 
   .reportdesc {
+    width: 90%;
+    margin: 0 auto;
     font-size: 18px;
+    line-height: 30px;
   }
 }
 

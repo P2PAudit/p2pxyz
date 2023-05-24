@@ -2,14 +2,13 @@ import React from 'react'
 import axios from 'axios';
 import { useState ,useEffect } from 'react';
 import Reportbox from './Reportbox';
-const urlserver = "https://p2pauditserver.vercel.app"
 
 const Reports = () => {
 
   const [reportlineup, setReportlineup] = useState([]);
 
   useEffect(() => {
-    axios.get(`${urlserver}/getreports`)
+    axios.get('https://api.github.com/repos/P2PAudit/Audit_Reports/contents')
     .then(response => {
       const data = response.data;
       setReportlineup(data);
@@ -22,13 +21,16 @@ const Reports = () => {
 
   return (
     <div className='reports'>
-      <div className="reporthead">Our Reports</div>
       <div className="reportsssection">
         {reportlineup.length === 0 ? (
           <div>Loading.....</div>
         ) :
-          reportlineup.map((report) => {
-            return (<Reportbox report={report} />)
+          reportlineup.reverse().map((report) => {
+            if(report.name==="assets"||report.name==="README.md") {
+
+            } else {
+              return (<Reportbox report={report} />)
+            }
           })
         }
       </div>

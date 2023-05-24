@@ -6,15 +6,13 @@ const ReportBox = (props) => {
 
   const [title, setTitle] = useState("");
   const [date, setDate] = useState("");
-  const [url, setUrl] = useState("");
 
   useEffect(() => {
-    axios.get(`${props.report.reportLink}/assets/details.json`)
+    axios.get(`https://raw.githubusercontent.com/P2PAudit/Audit_Reports/main/${props.report.name}/assets/details.json`)
       .then(response => {
         console.log(response.data);
         setTitle(response.data.name);
         setDate(response.data.date);
-        setUrl(response.data.url);
       })
       .catch(error => {
         console.log(error);
@@ -22,8 +20,8 @@ const ReportBox = (props) => {
   }, [])
 
   return (
-    <Link to={`/reports/${url}`} className='reportsbox'>
-      <img src={`${props.report.reportLink}/assets/icon.svg`} alt="report icon" className='reportsicon' />
+    <Link to={`/reports/${props.report.name}`} className='reportsbox'>
+      <img src={`https://raw.githubusercontent.com/P2PAudit/Audit_Reports/main/${props.report.name}/assets/icon.svg`} alt="report icon" className='reportsicon' />
       <div className="reportstitle">{title}</div>
       <div className="reportsdesc">{date}</div>
     </Link>
