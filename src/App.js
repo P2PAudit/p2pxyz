@@ -12,6 +12,7 @@ import Walletaudit from './components/Forms/Walletaudit';
 import NotFound from './components/NotFound';
 import Thankyou from './components/Thankyou';
 import Reports from './components/Reports/Reports';
+import Reportspage from './components/Reports/Reportspage';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -36,6 +37,7 @@ function App() {
             <Route path='codereviewform/' element={<Codereview />} />
             <Route path='walletauditform/' element={<Walletaudit />} />
             <Route path='reports/' element={<Reports />} />
+            <Route path='reports/:title' element={<Reportspage />} />
           </Routes>
           <Footer />
           <Banner />
