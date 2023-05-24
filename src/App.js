@@ -15,6 +15,7 @@ import BlogPage from './components/BlogPage';
 import Thankyou from './components/Thankyou';
 import Reports from './components/Reports/Reports';
 import Reportspage from './components/Reports/Reportspage';
+import Reportsdetail from './components/Reports/Reportsdetail';
 import './App.css';
 import {
   BrowserRouter as Router,
@@ -41,11 +42,12 @@ function App() {
             <Route path='walletauditform/' element={<Walletaudit />} />
             <Route path='reports/' element={<Reports />} />
             <Route path='reports/:title' element={<Reportspage />} />
+            <Route path='reports/:title/details' element={<Reportsdetail />} />
             <Route path='blogs/' element={<Blogs />} />
             <Route path='blogs/:title' element={<BlogPage />} />
           </Routes>
           <Footer />
-          <Banner />
+          {/* <Banner /> */}
         </div>
     </Router>
   );

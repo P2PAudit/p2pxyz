@@ -21,7 +21,7 @@ const Reports = () => {
 
   return (
     <div className='reports'>
-      <div className="reportsssection">
+      <div className="reportssection">
         {reportlineup.length === 0 ? (
           <div>Loading.....</div>
         ) :
@@ -29,7 +29,10 @@ const Reports = () => {
             if(report.name==="assets"||report.name==="README.md") {
 
             } else {
-              return (<Reportbox report={report} />)
+              return (
+              <>
+              <Reportbox report={report} />
+              </>)
             }
           })
         }

@@ -2153,8 +2153,10 @@ option {
 }
 
 .reportssection {
+  margin-top: 5%;
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto;
+  min-height: 50vh;
 }
 
 .reportimage {
@@ -2199,10 +2201,9 @@ option {
   color: #FFFFFF;
 }
 
-.reportssection a:first-child {
-  grid-column: 1 / span 3;
+/* .reportssection a:first-child {
   margin: 2%;
-}
+} */
 
 .hidden {
   display: none;
@@ -2231,6 +2232,98 @@ option {
   line-height: 30px;
   margin-top: 2%;
   margin-bottom: 2%;
+}
+
+.reportborder {
+  width: 40%;
+  margin: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  background: linear-gradient(90deg, #9F80F9 0%, #EBE1F7 100%);
+  border-radius: 10px;
+  height: fit-content;
+}
+
+.reportborder2 {
+  background: black;
+  margin: 3px;
+  border-radius: 10px;
+}
+
+.reportsbox {
+  display: flex;
+  padding-top: 10%;
+}
+
+.reportsbox > img {
+  margin: 0 5%;
+}
+
+.reportstitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39.8px;
+  line-height: 25px;
+  /* identical to box height, or 63% */
+
+  display: block;
+  /* align-items: center; */
+}
+
+.reportsdesc {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  /* identical to box height, or 100% */
+
+  display: block;
+  margin-top: 10%;
+  text-align: left;
+  color: #ADABB2;
+
+}
+
+.reportslink {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.93px;
+  line-height: 24px;
+  /* identical to box height, or 71% */
+
+  display: flex;
+  align-items: center;
+
+  color: #ADABB2;
+}
+
+.reportslink2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 33.93px;
+  line-height: 24px;
+  /* identical to box height, or 71% */
+
+  display: flex;
+  align-items: center;
+
+  margin: 0 5%;
+  margin-top: 10%;
+  padding-bottom: 5%;
+
+  color: #ADABB2;
+}
+
+.repreportslinkview {
+  margin-left: auto;
+}
+
+.fileicon {
+  margin-right: 1%;
 }
 
 
@@ -3114,6 +3207,27 @@ option {
     line-height: 25px;
   }
 
+  
+  .reportborder {
+    width: 80%;
+  }
+
+  .reportstitle {
+    font-size: 25px;
+  }
+  
+  .reportsdesc {
+    font-size: 10px;
+  }
+  
+  .reportslink2 {
+    font-size: 20px;
+  }
+
+  .fileicon {
+    height: 20px;
+  }
+
 }
 
 @media only screen and (max-width: 900px) and (min-width: 600px) {
@@ -3989,6 +4103,27 @@ option {
     font-size: 18px;
     line-height: 30px;
   }
+
+  .reportborder {
+    width: 70%;
+  }
+
+  .reportstitle {
+    font-size: 30px;
+  }
+  
+  .reportsdesc {
+    font-size: 15px;
+  }
+  
+  .reportslink2 {
+    font-size: 25px;
+  }
+
+  .fileicon {
+    height: 25px;
+  }
+
 }
 
 @media only screen and (max-width: 1280px) and (min-width: 1180px) {
@@ -3998,6 +4133,8 @@ option {
   }
 }
 
+
+
 @media only screen and (max-width: 1180px) and (min-width: 900px) {
   .navbtn {
     display: none;
@@ -4005,6 +4142,26 @@ option {
 
   .navflex {
     margin-left: auto;
+  }
+
+  .reportborder {
+    width: 50%;
+  }
+
+  .reportstitle {
+    font-size: 35px;
+  }
+  
+  .reportsdesc {
+    font-size: 20px;
+  }
+  
+  .reportslink2 {
+    font-size: 30px;
+  }
+
+  .fileicon {
+    height: 30px;
   }
 }
 
@@ -4045,7 +4202,7 @@ option {
 }
 
 .hljs {
-  background: rgb(51, 51, 51) !important;
+  background: #192533 !important;
 }
 
 .reportdesc a {
