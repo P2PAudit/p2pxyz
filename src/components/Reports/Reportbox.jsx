@@ -7,7 +7,6 @@ const ReportBox = (props) => {
   const [title, setTitle] = useState("");
   const [date, setDate] = useState("");
   const [url, setUrl] = useState("");
-  const [icon, setIcon] = useState("");
 
   useEffect(() => {
     axios.get(`${props.report.reportLink}/assets/details.json`)

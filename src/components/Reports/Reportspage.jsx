@@ -11,6 +11,9 @@ const Reportspage = () => {
   const urlkatana = "https://raw.githubusercontent.com/P2PAudit/p2p-Audit-Katana/main"
 
   const [report ,setReport] = useState("");
+  const [name, setName] = useState("");
+  const [date, setDate] = useState("");
+  const [url, setUrl] = useState("");
 
   function highlightCode() {
     document.querySelectorAll('pre code').forEach((block) => {
@@ -24,6 +27,16 @@ const Reportspage = () => {
   }, [report]);
 
   useEffect(() => {
+    axios.get(`${urlkatana}/${title}/assets/details.json`)
+      .then(response => {
+        console.log(response.data);
+        setName(response.data.name);
+        setDate(response.data.date);
+        setUrl(response.data.url);
+      })
+      .catch(error => {
+        console.log(error);
+      });
     axios.get(`${urlkatana}/${title}/Report.md`)
       .then(response => {
         setReport(response.data);
@@ -35,8 +48,12 @@ const Reportspage = () => {
   }, [])
 
   return (
-    <div className='blogbox'>
-      <div className="blogdesc">
+    <div className='reportbox'>
+      <div className="reportdesc">
+        <img src={`${urlkatana}/${title}/assets/icon.svg`} alt="report icon" className='reportsicon' width="10%"/>
+        <div className="reportheadingtitle">{name}</div>
+        <div className="reportheadingtitle">Findings & Analysis Report - P2PAuditkatana</div>
+        <div className="reportheadingdate">{date}</div>
         <Markdown>{report}</Markdown>
       </div>
     </div>

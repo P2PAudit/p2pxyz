@@ -2147,28 +2147,27 @@ option {
 
 
 
-.blogs {
+.reports {
   margin: 0 auto;
   width: 90%;
 }
 
-.blogssection {
+.reportssection {
   display: grid;
   grid-template-columns: auto auto auto;
 }
 
-.blogimage {
+.reportimage {
   width: 100%;
 }
 
-.blogbox {
-  border: 3px solid white;
+.reportbox {
   border-radius: 40px;
   margin: 5%;
   color: white;
 }
 
-.blogtitle {
+.reporttitle {
   font-family: 'Bruno Ace SC';
   font-style: normal;
   font-weight: 700;
@@ -2176,14 +2175,14 @@ option {
   line-height: 47px;
 }
 
-.blogdesc {
+.reportdesc {
   font-family: 'Brinnan';
   font-style: normal;
   padding: 4%;
   text-align: left;
 }
 
-.bloghead {
+.reporthead {
   margin: 2% auto;
   width: fit-content;
 
@@ -2200,13 +2199,30 @@ option {
   color: #FFFFFF;
 }
 
-.blogssection a:first-child {
+.reportssection a:first-child {
   grid-column: 1 / span 3;
   margin: 2%;
 }
 
 .hidden {
   display: none;
+}
+
+.reportheadingtitle {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 25px;
+  margin: 1.5% 0;
+}
+
+.reportheadingdate {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -3065,6 +3081,23 @@ option {
     display: none;
   }
 
+  .reportheadingtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    margin: 1.5% 0;
+  }
+  
+  .reportheadingdate {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 10px;
+    line-height: 24px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
 }
 
 @media only screen and (max-width: 900px) and (min-width: 600px) {
@@ -3916,6 +3949,23 @@ option {
   .hiddenmobile {
     display: none;
   }
+
+  .reportheadingtitle {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 25px;
+    margin: 1.5% 0;
+  }
+  
+  .reportheadingdate {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
 }
 
 @media only screen and (max-width: 1280px) and (min-width: 1180px) {
@@ -3975,19 +4025,19 @@ option {
   background: rgb(51, 51, 51) !important;
 }
 
-.blogdesc a {
+.reportdesc a {
   color: #8ab4f8;
 }
 
-.blogdesc a:visited {
+.reportdesc a:visited {
   color: #c58af9;
 }
 
-.blogdesc a:hover {
+.reportdesc a:hover {
   text-decoration: underline;
 }
 
-.blogdesc table {
+.reportdesc table {
   background: #1d1b26;
   color: #adabb2;
   display: block;
@@ -3999,13 +4049,13 @@ option {
   border-collapse: collapse;
 }
 
-.blogdesc th,
-.blogdesc td {
+.reportdesc th,
+.reportdesc td {
   border: 1px solid rgba(58, 58, 58, 0.629);
   padding: 8px;
 }
 
-.blogdesc thead tr {
+.reportdesc thead tr {
   background: #23242b;
 }
 
@@ -4026,3 +4076,7 @@ code:not([class]) {
   color: black!important;
 }
 
+.reportdesc {
+  overflow-x: scroll;
+  font-family: 'Inter';
+}
