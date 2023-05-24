@@ -47,7 +47,7 @@ function App() {
             <Route path='blogs/:title' element={<BlogPage />} />
           </Routes>
           <Footer />
-          {/* <Banner /> */}
+          <Banner />
         </div>
     </Router>
   );
