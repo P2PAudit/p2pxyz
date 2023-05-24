@@ -3974,3 +3974,54 @@ option {
 .hljs {
   background: rgb(51, 51, 51) !important;
 }
+
+.blogdesc a {
+  color: #8ab4f8;
+}
+
+.blogdesc a:visited {
+  color: #c58af9;
+}
+
+.blogdesc a:hover {
+  text-decoration: underline;
+}
+
+.blogdesc table {
+  background: #1d1b26;
+  color: #adabb2;
+  display: block;
+  font-size: 1rem;
+  line-height: 130%;
+  margin-bottom: 1.5rem;
+  max-width: fit-content;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.blogdesc th,
+.blogdesc td {
+  border: 1px solid rgba(58, 58, 58, 0.629);
+  padding: 8px;
+}
+
+.blogdesc thead tr {
+  background: #23242b;
+}
+
+code:not([class]) {
+  background-color: #2e2b3b;
+  border-radius: 0.2em;
+  color: #adabb2;
+  font-family: PT Mono, monospace;
+  font-size: .9em;
+  font-style: normal;
+  font-weight: 400;
+  line-height: inherit;
+  padding: 0.1em 0.3em;
+}
+
+::selection {
+  background-color: #9f7ff9bf!important;
+  color: black!important;
+}

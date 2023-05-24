@@ -15,7 +15,7 @@ const Reportspage = () => {
   function highlightCode() {
     document.querySelectorAll('pre code').forEach((block) => {
       hljsDefineSolidity(hljs);
-      hljs.highlightBlock(block);
+      hljs.highlightElement(block);
     });
   }
 
