@@ -1,4 +1,4 @@
-import React , { useState , useEffect }  from 'react'
+import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 import axios from 'axios';
@@ -11,7 +11,7 @@ const BlogPage = () => {
 
   const [markdown, setMarkdown] = useState("# Loading....!");
 
-  
+
   function highlightCode() {
     document.querySelectorAll('pre code').forEach((block) => {
       hljsDefineSolidity(hljs);

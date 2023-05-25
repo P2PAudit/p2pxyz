@@ -1,4 +1,4 @@
-import React , { useEffect , useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { Link } from "react-router-dom"
 import axios from 'axios';
 
@@ -25,13 +25,12 @@ const Blog = (props) => {
   }, [])
 
   return (
-    <Link to={`/blogs/${props.ele.name}`} className='blogbox'>  
-     {props.imgbanner === "small" ? (
-            <img src={`https://raw.githubusercontent.com/prasantgupta52/sample-blogs/main/${props.ele.name}/assets/1bg.svg`} alt="blog image" className='blogimage'/>
-          ) : (
-            <img src={`https://raw.githubusercontent.com/prasantgupta52/sample-blogs/main/${props.ele.name}/assets/bigbanner.svg`} alt="blog image" className='blogimage'/>
-          )
-      }
+    <Link to={`/blogs/${props.ele.name}`} className='blogbox'>
+      {props.imgbanner === "small" ? (
+        <img src={`https://raw.githubusercontent.com/prasantgupta52/sample-blogs/main/${props.ele.name}/assets/1bg.svg`} alt="blog image" className='blogimage' />
+      ) : (
+        <img src={`https://raw.githubusercontent.com/prasantgupta52/sample-blogs/main/${props.ele.name}/assets/bigbanner.svg`} alt="blog image" className='blogimage' />
+      )}
       <div className="blogtitle">{title}</div>
       <div className="blogdesc">{desc}</div>
     </Link>
