@@ -51,7 +51,7 @@ const Reportspage = () => {
       <div className="reportdesc">
         {date === null ? (<></>) : (<img src={`https://raw.githubusercontent.com/P2PAudit/Audit_Reports/main/${title}/assets/icon.svg`} alt="report icon" className='reportsicon' width="10%" />)}
         <div className="reportheadingtitle">{name}</div>
-        <div className="reportheadingtitle">Findings & Analysis Report{date === null ? (<></>) : (<>- P2PAuditkatana</>)}</div>
+        <div className="reportheadingtitle">Findings & Analysis Report{date === null ? (<></>) : (<> - P2PAuditkatana</>)}</div>
         <div className="reportheadingdate">{date}</div>
         <Markdown>{report}</Markdown>
       </div>
