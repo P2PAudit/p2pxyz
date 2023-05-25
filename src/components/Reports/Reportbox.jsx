@@ -31,7 +31,7 @@ const ReportBox = (props) => {
           </div>
         </Link>
         <div className='reportslink'>
-          <Link to={`/reports/${props.report.name}/Details`} className='reportslink2'>
+          <Link to={`/reports/${props.report.name}/details`} className='reportslink2'>
           <img src={fileicon} alt="file" className='fileicon'/>
           <div>Details</div>
           </Link>
