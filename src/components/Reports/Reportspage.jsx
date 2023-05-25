@@ -1,4 +1,4 @@
-import React , { useState , useEffect }  from 'react'
+import React, { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom';
 import Markdown from 'markdown-to-jsx';
 import axios from 'axios';
@@ -9,7 +9,7 @@ const Reportspage = () => {
 
   const { title } = useParams();
 
-  const [report ,setReport] = useState("");
+  const [report, setReport] = useState("## Loading Report....!");
   const [name, setName] = useState("");
   const [date, setDate] = useState("");
 
@@ -39,7 +39,9 @@ const Reportspage = () => {
         setReport(response.data);
       })
       .catch(error => {
-        setReport("");
+        setName(title);
+        setDate(null);
+        setReport("### No Report Found make sure you have entered correct URL");
         console.log(error);
       });
   }, [])
@@ -47,9 +49,9 @@ const Reportspage = () => {
   return (
     <div className='reportbox'>
       <div className="reportdesc">
-        <img src={`https://raw.githubusercontent.com/P2PAudit/Audit_Reports/main/${title}/assets/icon.svg`} alt="report icon" className='reportsicon' width="10%"/>
+        {date === null ? (<></>) : (<img src={`https://raw.githubusercontent.com/P2PAudit/Audit_Reports/main/${title}/assets/icon.svg`} alt="report icon" className='reportsicon' width="10%" />)}
         <div className="reportheadingtitle">{name}</div>
-        <div className="reportheadingtitle">Findings & Analysis Report - P2PAuditkatana</div>
+        <div className="reportheadingtitle">Findings & Analysis Report{date === null ? (<></>) : (<> - P2PAuditkatana</>)}</div>
         <div className="reportheadingdate">{date}</div>
         <Markdown>{report}</Markdown>
       </div>
